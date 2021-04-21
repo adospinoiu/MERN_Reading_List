@@ -4,6 +4,12 @@ function App() {
   return (
     <div className="app">
       <p>Start of the APP</p>
+
+      {/* <ReadingList /> */}
+
+      {/* <BookNotes /> */}
+
+      {/* <ReadBooks /> */}
     </div>
   );
 }
