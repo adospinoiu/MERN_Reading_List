@@ -1,4 +1,7 @@
 import './App.css';
+import BookNotes from './BookNotes';
+import ReadBooks from './ReadBooks';
+import ReadingList from './ReadingList';
 
 function App() {
   return (
@@ -6,11 +9,11 @@ function App() {
       <div className="app__body">
         <p>Start of the APP</p>
 
-        {/* <ReadingList /> */}
+        <ReadingList />
 
-        {/* <BookNotes /> */}
+        <BookNotes />
 
-        {/* <ReadBooks /> */}
+        <ReadBooks />
       </div>
     </div>
   );

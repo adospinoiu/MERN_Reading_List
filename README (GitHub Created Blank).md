@@ -13,3 +13,5 @@
 #5 Add minimal css to App.css for styling the main background and for styling the background of the <div> where the components are going to be displayed
 
 #6 'rfce' to start with in each of the components will import the generic first few lines needed for each component
+
+#7 Start with a generic <p> in each component and then import all the components (with CTRL + SPACEBAR) in the App.js file
