@@ -3,13 +3,15 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-      <p>Start of the APP</p>
+      <div className="app__body">
+        <p>Start of the APP</p>
 
-      {/* <ReadingList /> */}
+        {/* <ReadingList /> */}
 
-      {/* <BookNotes /> */}
+        {/* <BookNotes /> */}
 
-      {/* <ReadBooks /> */}
+        {/* <ReadBooks /> */}
+      </div>
     </div>
   );
 }
