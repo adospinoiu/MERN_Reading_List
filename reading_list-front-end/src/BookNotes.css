@@ -1,0 +1,6 @@
+.booknotes {
+    display: flex;
+    flex-direction: column;
+    flex: 0.50;
+    border-right: 1px solid lightgrey;
+}

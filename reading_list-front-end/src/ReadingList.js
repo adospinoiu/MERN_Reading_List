@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './ReadingList.css';
 
 function ReadingList() {
     return (
-        <div>
+        <div className="readinglist">
             <p>Reading List Component</p>
         </div>
     )

@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './BookNotes.css';
 
 function BookNotes() {
     return (
-        <div>
+        <div className="booknotes">
             <p>Book Notes Component</p>
         </div>
     )

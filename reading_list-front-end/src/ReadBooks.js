@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './ReadBooks.css'
 
 function ReadBooks() {
     return (
-        <div>
+        <div className="readbooks">
             <p>Read Books Component</p>
         </div>
     )

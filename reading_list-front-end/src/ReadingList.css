@@ -1,0 +1,6 @@
+.readinglist {
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    border-right: 1px solid lightgrey;
+}
