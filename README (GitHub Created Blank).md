@@ -9,3 +9,7 @@
 ***BASIC LAYOUT of the app was the first thing completed***
 
 #4 Add the high level components to App.js file and then create the associated .js files and the .css files for the high level components in the src-folder
+
+#5 Add minimal css to App.css for styling the main background and for styling the background of the <div> where the components are going to be displayed
+
+#6 'rfce' to start with in each of the components will import the generic first few lines needed for each component
