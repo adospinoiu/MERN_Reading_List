@@ -4,3 +4,10 @@
     flex: 0.25;
     border-right: 1px solid lightgrey;
 }
+
+.readinglist__addnewbook {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
