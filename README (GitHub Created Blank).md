@@ -15,3 +15,7 @@
 #6 'rfce' to start with in each of the components will import the generic first few lines needed for each component
 
 #7 Start with a generic <p> in each component and then import all the components (with CTRL + SPACEBAR) in the App.js file
+
+#8 Add a bit of generic css to each of the component.css files in order to better see the different components
+
+#9 Install @material-ui/core on the front-end to be able to import icons. Also install @material-ui/icons
