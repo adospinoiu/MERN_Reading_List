@@ -37,11 +37,11 @@ function ReadingList() {
             </div>
 
             <div className="readinglist__currentlyreading">
-
+                <p>Currently Reading</p>
             </div>
 
             <div className="readinglist__futurereading">
-
+                <p>Reading List</p>
             </div>
         </div >
     )

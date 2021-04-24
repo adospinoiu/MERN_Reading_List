@@ -8,6 +8,25 @@
 .readinglist__addnewbook {
     padding: 20px;
     display: flex;
-    align-items: center;
-    border-bottom: 1px solid lightgrey;
+    /* border-bottom: 1px solid lightgrey; */
+    border: 2px solid red;
+}
+
+.addnewbook__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.addnewbook__inputFields {
+    border: 2px solid red;
+}
+
+.readinglist__currentlyreading {
+    border: 2px solid red;
+}
+
+.readinglist__futurereading {
+    border: 2px solid red;
 }
