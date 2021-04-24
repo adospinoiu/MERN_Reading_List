@@ -19,3 +19,5 @@
 #8 Add a bit of generic css to each of the component.css files in order to better see the different components
 
 #9 Install @material-ui/core on the front-end to be able to import icons. Also install @material-ui/icons
+
+#10 Major Time Spent Observation: spent alot of time trying to figure out the CSS to properly position everything. It is very helpful to 'border' all the <div>(s) to be able to see where things are and to move them around

@@ -8,6 +8,7 @@
 .readinglist__addnewbook {
     padding: 20px;
     display: flex;
+    flex-direction: column;
     /* border-bottom: 1px solid lightgrey; */
     border: 2px solid red;
 }
