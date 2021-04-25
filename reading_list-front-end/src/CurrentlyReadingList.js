@@ -9,7 +9,7 @@ function CurrentlyReadingList() {
             <EmojiObjectsIcon />
 
             <div className="currentlyReadingList__info">
-                <h2>This is the book name</h2>
+                <h3>This is the book name</h3>
                 <p>This is who recommended it</p>
             </div>
         </div>

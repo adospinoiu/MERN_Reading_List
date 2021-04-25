@@ -66,6 +66,7 @@
 
 .currentlyreading__list {
     border: 2px solid red;
+    background-color: rgb(243, 225, 177);
 }
 
 /* Future Reading Section */
