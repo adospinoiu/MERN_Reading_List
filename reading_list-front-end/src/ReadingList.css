@@ -5,6 +5,7 @@
     border-right: 1px solid lightgrey;
 }
 
+/* Add New Book Section  */
 .readinglist__addnewbook {
     padding: 20px;
     display: flex;
@@ -43,10 +44,12 @@
     border-radius: 10px;
 }
 
+/* Currently Reading Section */
 .readinglist__currentlyreading {
     border: 2px solid red;
 }
 
+/* Future Reading Section */
 .readinglist__futurereading {
     border: 2px solid red;
 }
