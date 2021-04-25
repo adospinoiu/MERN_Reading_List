@@ -38,6 +38,11 @@
     border: none;
 }
 
+.addnewbook__inputs > button {
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
 .readinglist__currentlyreading {
     border: 2px solid red;
 }

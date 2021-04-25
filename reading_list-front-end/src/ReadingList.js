@@ -2,6 +2,7 @@ import React from 'react';
 import './ReadingList.css';
 
 import MenuBookIcon from '@material-ui/icons/MenuBook';
+import BookmarksIcon from '@material-ui/icons/Bookmarks';
 
 function ReadingList() {
     return (
@@ -23,7 +24,7 @@ function ReadingList() {
                             placeholder="Author"
                             type="text"
                         />
-                        
+
                         <input
                             placeholder="Recommended by"
                             type="text"
@@ -34,7 +35,14 @@ function ReadingList() {
             </div>
 
             <div className="readinglist__currentlyreading">
-                <p>Currently Reading</p>
+                <div className="currentlyreading__header">
+                    <BookmarksIcon />
+                    
+                    <p>Currently Reading</p>
+                </div>
+                
+            
+            
             </div>
 
             <div className="readinglist__futurereading">
