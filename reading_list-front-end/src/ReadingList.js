@@ -3,6 +3,7 @@ import './ReadingList.css';
 
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
+import ViewListIcon from '@material-ui/icons/ViewList';
 
 function ReadingList() {
     return (
@@ -42,11 +43,15 @@ function ReadingList() {
                 </div>
                 
             
-            
             </div>
 
             <div className="readinglist__futurereading">
-                <p>Reading List</p>
+                <div className="futurereading__header">
+                    <ViewListIcon />
+                    
+                    <p>Reading List</p>
+                </div>
+                
             </div>
         </div >
     )
