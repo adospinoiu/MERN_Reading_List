@@ -46,9 +46,21 @@
 
 /* Currently Reading Section */
 .readinglist__currentlyreading {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* border-bottom: 1px solid lightgrey; */
     border: 2px solid red;
+    background-color: rgb(240, 218, 94);
 }
 
+.currentlyreading__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid red;
+    background-color: rgb(243, 225, 177);
+}
 /* Future Reading Section */
 .readinglist__futurereading {
     border: 2px solid red;
