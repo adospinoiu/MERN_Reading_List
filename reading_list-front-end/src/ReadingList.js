@@ -1,9 +1,12 @@
 import React from 'react';
 import './ReadingList.css';
 
+import CurrentlyReadingList from './CurrentlyReadingList';
+
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
 import ViewListIcon from '@material-ui/icons/ViewList';
+
 
 function ReadingList() {
     return (
@@ -43,8 +46,9 @@ function ReadingList() {
                 </div>
 
                 <div className="currentlyreading__list">
-
-                    
+                    <CurrentlyReadingList />
+                    <CurrentlyReadingList />
+                    <CurrentlyReadingList />
                 </div>
                 
             
