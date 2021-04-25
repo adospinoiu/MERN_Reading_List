@@ -41,6 +41,11 @@ function ReadingList() {
                     
                     <p>Currently Reading</p>
                 </div>
+
+                <div className="currentlyreading__list">
+
+                    
+                </div>
                 
             
             </div>
