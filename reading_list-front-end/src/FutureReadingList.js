@@ -1,19 +1,20 @@
 import React from 'react';
-import './CurrentlyReadingList.css';
+import './FutureReadingList.css';
 
-import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
+import NotListedLocationIcon from '@material-ui/icons/NotListedLocation';
 
-function CurrentlyReadingList() {
+function FutureReadingList() {
     return (
-        <div className="currentlyReadingList">
-            <EmojiObjectsIcon />
+        <div className="futureReadingList">
+            <NotListedLocationIcon />
 
-            <div className="currentlyReadingList__info">
+            <div className="futureReadingList__info">
                 <h3>This is the book name</h3>
+                <p>This is the author</p>
                 <p>This is who recommended it</p>
             </div>
         </div>
     )
 }
 
-export default CurrentlyReadingList
+export default FutureReadingList
