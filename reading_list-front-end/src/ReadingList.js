@@ -2,10 +2,12 @@ import React from 'react';
 import './ReadingList.css';
 
 import CurrentlyReadingList from './CurrentlyReadingList';
+import FutureReadingList from './FutureReadingList';
 
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
 import ViewListIcon from '@material-ui/icons/ViewList';
+
 
 
 function ReadingList() {
@@ -59,6 +61,12 @@ function ReadingList() {
                     <ViewListIcon />
                     
                     <p>Reading List</p>
+                </div>
+
+                <div className="futurereading__list">
+                    <FutureReadingList />
+                    <FutureReadingList />
+                    <FutureReadingList />
                 </div>
                 
             </div>
