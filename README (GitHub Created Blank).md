@@ -25,3 +25,5 @@
 #11 Completed the Add-New-Book-To-Reading-List section. Most of the time spent on the css to make it look cool. 
 
 #12 On the Currently-Reading-Section, decided to call a component that will have the information in it. So in essence there will be a sub-component to this component
+
+#13 On the Future-Reading-Section, decided to call a component that will have the information in it. So in essence there will be a sub-component to this component as well
