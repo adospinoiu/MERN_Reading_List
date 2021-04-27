@@ -7,7 +7,6 @@ import CommentIcon from '@material-ui/icons/Comment';
 function BookNotes() {
     return (
         <div className="booknotes">
-            <p>Book Notes Component</p>
             <div className="booknotes__header">
                 <SpeakerNotesIcon />
 
