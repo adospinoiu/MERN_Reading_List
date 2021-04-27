@@ -27,3 +27,5 @@
 #12 On the Currently-Reading-Section, decided to call a component that will have the information in it. So in essence there will be a sub-component to this component
 
 #13 On the Future-Reading-Section, decided to call a component that will have the information in it. So in essence there will be a sub-component to this component as well
+
+#14 All three sub-sections of the first component are now complete. Begin working on the middle component (i.e. the book notes component)
