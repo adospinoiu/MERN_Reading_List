@@ -1,6 +1,7 @@
 import React from 'react';
 import './BookNotes.css';
 
+import SpeakerNotesIcon from '@material-ui/icons/SpeakerNotes';
 import CommentIcon from '@material-ui/icons/Comment';
 
 function BookNotes() {
@@ -8,7 +9,12 @@ function BookNotes() {
         <div className="booknotes">
             <p>Book Notes Component</p>
             <div className="booknotes__header">
+                <SpeakerNotesIcon />
 
+                <div className="booknotes__headerInfo">
+                    <h3>Title of the Book</h3>
+                    <p>Last comment added on</p>
+                </div>
 
             </div>
 
