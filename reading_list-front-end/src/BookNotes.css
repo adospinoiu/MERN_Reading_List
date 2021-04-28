@@ -3,6 +3,8 @@
     flex-direction: column;
     flex: 0.50;
     border-right: 1px solid lightgrey;
+    background-color: rgb(240, 218, 94);
+    padding: 20px;
 }
 
 .booknotes__header {
@@ -10,6 +12,18 @@
     display: flex;
     align-items: center;
     border-bottom: 1px solid lightgrey;
+    background-color: rgb(189, 228, 243);
+
+    border: 2px solid red;
+}
+
+.booknotes__body {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    background-color: rgb(243, 225, 177);
+    border: 2px solid red;
 }
 
 .booknotes__footer {
@@ -18,4 +32,5 @@
     align-items: center;
     height: 62px;
     border-top: 1px solid lightgrey;
+    border: 2px solid red;
 }
