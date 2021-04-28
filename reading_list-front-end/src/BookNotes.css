@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     border-bottom: 1px solid lightgrey;
-    background-color: rgb(189, 228, 243);
+    background-color: rgb(205, 236, 248);
 
     border: 2px solid red;
 }
@@ -36,11 +36,13 @@
 /* ### Body Section ### */ 
 
 .booknotes__body {
+    flex: 1;
     padding: 20px;
-    display: flex;
+
     align-items: center;
     border-bottom: 1px solid lightgrey;
     background-color: rgb(243, 225, 177);
+
     border: 2px solid red;
 }
 
@@ -67,12 +69,38 @@
 }
 /* ############################# */
 
-
+/* ### Footer Section ### */
 .booknotes__footer {
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 62px;
     border-top: 1px solid lightgrey;
+    background-color: rgb(189, 228, 243);
+
     border: 2px solid red;
+}
+
+.booknotes__footer > form {
+    flex: 1;
+    display: flex;
+}
+
+.booknotes__footer > form > input {
+    flex: 1;
+    outline-width: 0;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+
+/* This hides the button, but can use ENTER on the keyboard */
+.booknotes__footer > form > button {
+    display: none;
+}
+
+.booknotes__footer > .MuiSvgIcon-root {
+    padding-right: 20px;
+    color: rgb(0, 0, 0);
 }
