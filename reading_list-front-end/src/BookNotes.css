@@ -31,8 +31,9 @@
 .booknotes__headerInfo > p {
     color: gray;
 }
-
 /* ############################# */
+
+/* ### Body Section ### */ 
 
 .booknotes__body {
     padding: 20px;
@@ -42,6 +43,30 @@
     background-color: rgb(243, 225, 177);
     border: 2px solid red;
 }
+
+.notes__message {
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgb(189, 228, 243);
+    margin-bottom: 30px;
+}
+
+.notes__name {
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+
+.notes__timestamp {
+    margin-left: 10px;
+    font-size: xx-small;
+}
+/* ############################# */
+
 
 .booknotes__footer {
     display: flex;
