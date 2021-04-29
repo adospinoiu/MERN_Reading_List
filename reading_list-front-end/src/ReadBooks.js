@@ -1,12 +1,14 @@
 import React from 'react';
-import './ReadBooks.css'
+import './ReadBooks.css';
+
+import WbIncandescentIcon from '@material-ui/icons/WbIncandescent';
 
 function ReadBooks() {
     return (
         <div className="readbooks">
             <p>Read Books Component</p>
             <div className="futurereading__header">
-                    <ViewListIcon />
+                    <WbIncandescentIcon />
                     
                     <p>Reading List</p>
                 </div>

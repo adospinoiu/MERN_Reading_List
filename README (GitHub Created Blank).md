@@ -31,3 +31,5 @@
 #14 All three sub-sections of the first component are now complete. Begin working on the middle component (i.e. the book notes component)
 
 #15 Middle component has three distinct sections: top-header, body-notes, and footer
+
+#16 Work on the third component that has the 'already-read-books'
