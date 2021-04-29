@@ -1,9 +1,10 @@
 import React from 'react';
 import './ReadBooks.css';
 
-import FutureReadingList from './FutureReadingList';
+import AlreadyReadList from './AlreadyReadList';
 
 import WbIncandescentIcon from '@material-ui/icons/WbIncandescent';
+
 
 function ReadBooks() {
     return (
@@ -15,9 +16,9 @@ function ReadBooks() {
                 </div>
 
                 <div className="futurereading__list">
-                    <FutureReadingList />
-                    <FutureReadingList />
-                    <FutureReadingList />
+                    <AlreadyReadList />
+                    <AlreadyReadList />
+                    <AlreadyReadList />
                 </div>
         </div>
     )
