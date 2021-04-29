@@ -68,7 +68,6 @@ function ReadingList() {
                     <FutureReadingList />
                     <FutureReadingList />
                 </div>
-                
             </div>
         </div >
     )
