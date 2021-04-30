@@ -1,0 +1,14 @@
+.alreadyReadList {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.alreadyReadList:hover {
+    background-color: seashell;
+}
+
+.alreadyReadList__info {
+    margin-left: 15px;
+}

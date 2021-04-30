@@ -72,8 +72,8 @@
 /* Future Reading Section */
 .readinglist__futurereading {
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+    flex: 1;
+
     /* border-bottom: 1px solid lightgrey; */
     border: 2px solid red;
     background-color: rgb(240, 218, 94);
