@@ -9,17 +9,19 @@ import WbIncandescentIcon from '@material-ui/icons/WbIncandescent';
 function ReadBooks() {
     return (
         <div className="readbooks">
-            <div className="futurereading__header">
+            <div className="readbooks__header">
+                <div className="readbooks__headerInfo">
                     <WbIncandescentIcon />
-                    
-                    <p>Read Books List</p>
-                </div>
 
-                <div className="futurereading__list">
-                    <AlreadyReadList />
-                    <AlreadyReadList />
-                    <AlreadyReadList />
-                </div>
+                    <p>Read Books List</p>
+                </div>               
+            </div>
+
+            <div className="readbooks__list">
+                <AlreadyReadList />
+                <AlreadyReadList />
+                <AlreadyReadList />
+            </div>
         </div>
     )
 }

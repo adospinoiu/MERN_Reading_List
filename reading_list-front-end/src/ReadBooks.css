@@ -3,3 +3,26 @@
     flex-direction: column;
     flex: 0.25;
 }
+
+.readbooks__header {
+    padding: 20px;
+    border: 2px solid red;
+    background-color: rgb(240, 218, 94);
+}
+
+.readbooks__headerInfo {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px solid red;
+    background-color: rgb(243, 225, 177);
+}
+
+.readbooks__list {
+    
+
+    border: 2px solid red;
+    padding: 20px;
+    background-color: rgb(243, 225, 177);
+}
