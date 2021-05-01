@@ -32,4 +32,10 @@
 
 #15 Middle component has three distinct sections: top-header, body-notes, and footer
 
-#16 Work on the third component that has the 'already-read-books'
+#16 Work on the third component that has the 'already-read-books-section"
+
+#17 All three-main-components are now completed. The CSS was a bit difficult, but once I figured out the right layout and pattern, it started coming together.
+
+#18 The three-main-components, some have sub-components where information will need to flow-up or flow-down.
+
+#19 MVP for the front-end is now complete. Moving to the back-end.
