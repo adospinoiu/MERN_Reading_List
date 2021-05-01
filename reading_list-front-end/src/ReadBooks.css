@@ -4,7 +4,7 @@
     flex: 0.25;
 }
 
-.readbooks__header {
+.alreadyReadBooks {
     padding: 20px;
     border: 2px solid red;
     background-color: rgb(240, 218, 94);
@@ -20,9 +20,7 @@
 }
 
 .readbooks__list {
-    
-
-    border: 2px solid red;
     padding: 20px;
-    background-color: rgb(243, 225, 177);
+    border: 2px solid red;
+    background-color: rgb(240, 218, 94);
 }

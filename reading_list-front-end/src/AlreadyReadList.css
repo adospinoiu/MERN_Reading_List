@@ -3,7 +3,7 @@
     padding: 10px;
     cursor: pointer;
     border-bottom: 1px solid whitesmoke;
-    
+    background-color: rgb(243, 225, 177);
 }
 
 .alreadyReadList:hover {
