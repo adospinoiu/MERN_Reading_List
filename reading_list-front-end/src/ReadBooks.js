@@ -20,6 +20,8 @@ function ReadBooks() {
                     <AlreadyReadList />
                     <AlreadyReadList />
                     <AlreadyReadList />
+                    <AlreadyReadList />
+                    <AlreadyReadList />
                 </div>
             </div>
         </div>
