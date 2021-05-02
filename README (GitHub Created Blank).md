@@ -39,3 +39,10 @@
 #18 The three-main-components, some have sub-components where information will need to flow-up or flow-down.
 
 #19 MVP for the front-end is now complete. Moving to the back-end.
+
+#20 First install 'npm-init' to install Node.js on the back-end. Ensure the "entry point" is indicated as 'server.js'
+
+#21 To the package.json file ensure you add the 'scripts' of "start": "node server.js" and to the main section add "type": "module" to be able to use ES6 notation.
+
+#22 Make sure there is a .gitignore file of the back-end as well. (Copy it from the front end).
+
