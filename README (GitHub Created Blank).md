@@ -46,3 +46,5 @@
 
 #22 Make sure there is a .gitignore file of the back-end as well. (Copy it from the front end).
 
+#23 Install Express and Mongoose on the back-end and create the initial server.js file
+
