@@ -50,3 +50,7 @@
 
 #24 Establish the basic server.js lines that set-up the server and establish the first API to the generic address to ensure the PORT is working.
 
+#25 Set-up Mongod-Atlas so the database is established
+    - Create a 'free cluster' after you have created the project and givent it a name. The cluster is where the database will actually be stored
+
+
