@@ -59,6 +59,6 @@
 
 #28 Connect the application to the database by first retrieving the URL you will need from clusters > connect > connect your application. This URL has three important pieces of information in it: the admin, the password (which you will have to enter), and the database name. Copy the URL and paste it in your server.js file on the back-end.
 
-
+#29 Added the DB-Config lines to server.js to establish connection to the database
 
 
