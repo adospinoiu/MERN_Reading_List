@@ -61,4 +61,10 @@
 
 #29 Added the DB-Config lines to server.js to establish connection to the database
 
+#30 Created a new db.js file (AddNewBook) that has a schema of the information that will be pushed to the database when a new book is added by the user.
+
+#31 Add the Middleware Line and then add the POST-API to push the data into the database. Test it with Insomnia to see if it works.
+
+#32 IT WORKS!!! The POST-API successfully pushed data from Insomnia into the Atlas-Database and created a new-collection as it was described in the schema established
+
 
