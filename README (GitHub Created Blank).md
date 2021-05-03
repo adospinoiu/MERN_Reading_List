@@ -53,4 +53,6 @@
 #25 Set-up Mongod-Atlas so the database is established
     - Create a 'free cluster' after you have created the project and givent it a name. The cluster is where the database will actually be stored
 
+#26 Establish the Network Access to the cluster/database. You can limit it to only a certain IP-Address or you can establish to give it access from anywhere. Confirm your selection after you make it.
+
 
