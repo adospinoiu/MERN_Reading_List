@@ -55,4 +55,8 @@
 
 #26 Establish the Network Access to the cluster/database. You can limit it to only a certain IP-Address or you can establish to give it access from anywhere. Confirm your selection after you make it.
 
+#27 Establish the Database Access to the cluster/database. Select the way you wish to authenticate by the given options. If you select a user/psw ... ensure you randomly generate the password for added security. But ALSO COPY that password and save it somewhere.
+
+
+
 
