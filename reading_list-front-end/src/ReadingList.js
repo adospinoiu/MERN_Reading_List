@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ReadingList.css';
 
 import CurrentlyReadingList from './CurrentlyReadingList';
@@ -7,10 +7,29 @@ import FutureReadingList from './FutureReadingList';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
 import ViewListIcon from '@material-ui/icons/ViewList';
+import axios from 'axios';
 
 
 
 function ReadingList() {
+    const [ title, setTitle ] = useState("");
+    const [ author, setAuthor ] = useState("");
+    const [ recommended, setRecommended ] = useState("");
+
+    const sendNewBook = async (e) => {
+        e.preventDefault();
+
+        await axios.post('/addNewBook/new', {
+            title: title,
+            author: author,
+            recommendedBy: recommended,
+        })
+
+        setTitle('');
+        setAuthor('');
+        setRecommended('');
+    }
+
     return (
         <div className="readinglist">
             <div className="readinglist__addnewbook">
@@ -42,7 +61,7 @@ function ReadingList() {
                             onChange={e => setRecommended(e.target.value)}
                         />
 
-                        <button type="submit">Add to List</button>
+                        <button onClick={sendNewBook} type="submit">Add to List</button>
                 </div>
             </div>
 
