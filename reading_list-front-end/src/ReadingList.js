@@ -22,18 +22,24 @@ function ReadingList() {
             
                 <div className="addnewbook__inputs">
                         <input
+                            value={title}
                             placeholder="Title"
                             type="text"
-                        />
-
-                        <input 
-                            placeholder="Author"
-                            type="text"
+                            onChange={e => setTitle(e.target.value)}
                         />
 
                         <input
+                            value={author} 
+                            placeholder="Author"
+                            type="text"
+                            onChange={e => setAuthor(e.target.value)}
+                        />
+
+                        <input
+                            value= {recommended}
                             placeholder="Recommended by"
                             type="text"
+                            onChange={e => setRecommended(e.target.value)}
                         />
 
                         <button type="submit">Add to List</button>
