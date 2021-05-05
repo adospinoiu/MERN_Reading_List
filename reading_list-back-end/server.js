@@ -31,6 +31,16 @@ app.get('/', (req, res) => {
     res.status(200).send('Hello World')
 });
 
+app.get('/addNewBook/added', (req, res) => {
+    AddNewBook.find((err, data) => {
+        if (err) {
+            res.status(500).send(err);
+        } else {
+            res.status(200).send(data);
+        }
+    })
+})
+
 app.post('/addNewBook/new', (req, res) => {
     const newBook = req.body
 
