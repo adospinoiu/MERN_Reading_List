@@ -7,7 +7,7 @@ import FutureReadingList from './FutureReadingList';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
 import ViewListIcon from '@material-ui/icons/ViewList';
-import axios from 'axios';
+import axios from './axios';
 
 
 

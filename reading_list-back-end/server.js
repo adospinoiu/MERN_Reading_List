@@ -10,6 +10,13 @@ const port = process.env.PORT || 9000;
 //Middleware
 app.use(express.json());
 
+//Security Warning
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Headers', '*');
+    next();
+})
+
 // DB Config
 const connection_url = 'mongodb+srv://controller:JHzOMh9ImpBDMC6S@cluster0.xotjm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 

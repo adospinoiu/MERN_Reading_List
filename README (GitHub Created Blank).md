@@ -69,4 +69,8 @@
 
 #33 Install AXIOS on the front-end folder
 
+#34 Retrieve the data from the user (i.e. title, author, recommended) and utilize setState to pass the data with an axios call to the database.
+
+#35 IT WORKS!!! Information entered by the user (i.e. title, author, recommended) is sent to the database
+
 
