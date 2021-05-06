@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="app">
       <div className="app__body">
-        <ReadingList />
+        <ReadingList newBook={newBook}/>
 
         <BookNotes />
 

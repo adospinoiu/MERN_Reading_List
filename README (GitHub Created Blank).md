@@ -77,4 +77,6 @@
 
 #37 The ReadingList-Component (i.e. the add-new-book subcomponent) performs a POST when the user enters the data for a new book. The POST-API is triggered by an onClick-event when the user hits 'submit'. The data then has to be fetched (i.e. a GET-API) and passed back to the ReadingList-Component which has to filter it down to the future-reading-list subcomponent in order for it to be rendered in the list
 
+#38 IT WORKS!!! Data entered by the user is successfully pushed into the database with a POST-API route, then (when the browser is re-freshed) there is a GET-API route that pulls the data from the database and sends it down to the sub-component to render on the browser.
+
 
