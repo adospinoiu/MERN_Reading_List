@@ -79,4 +79,6 @@
 
 #38 IT WORKS!!! Data entered by the user is successfully pushed into the database with a POST-API route, then (when the browser is re-freshed) there is a GET-API route that pulls the data from the database and sends it down to the sub-component to render on the browser.
 
+#39 IT WORKS!!! The future-reading-list sub-component of the main reading-list component now renders data correctly with all the associated CSS.
+
 

@@ -17,25 +17,8 @@ function FutureReadingList({ newBook }) {
         </div>
     ))
 
-
-
     return (
         ( futureBook )
-
-        /* Dynamic-Code */ 
-    /* {newBook.map((data) => (
-                    <>
-                        <h3>{data.title}</h3>
-                        <p>{data.author}</p>
-                        <p>{data.recommendedBy}</p>
-                    </>
-                ))} */
-
-    /* Non-Dynamic Code */ 
-    /* <h3>This is the book name</h3>
-                <p>This is the author</p>
-                <p>This is who recommended it</p> */
-
     )
 }
 
