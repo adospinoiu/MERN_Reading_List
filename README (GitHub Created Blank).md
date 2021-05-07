@@ -81,4 +81,6 @@
 
 #39 IT WORKS!!! The future-reading-list sub-component of the main reading-list component now renders data correctly with all the associated CSS.
 
+#40 Roadblock. Now that I can add new books to the 'future-reading-list-subcomponent; I now need to be able to "drag" a future-book to the currently-reading section. I need to be able to drag it, THEN start making comments for that specific book. Problem is ... I don't know how to drag-and-drop. So forward progress is paused until I teach myself how to drag-and-drop. Appears that react-beautiful-dnd is what I have to learn
+
 
