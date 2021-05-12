@@ -6,7 +6,7 @@ import NotListedLocationIcon from '@material-ui/icons/NotListedLocation';
 
 function FutureReadingList({ newBook }) {
     const futureBook = newBook.map((data) => (
-        <div className="futureReadingList">
+        <div draggable="true" className="futureReadingList">
             <NotListedLocationIcon />
 
             <div className="futureReadingList__info">

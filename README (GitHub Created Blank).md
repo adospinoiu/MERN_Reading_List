@@ -83,4 +83,6 @@
 
 #40 Roadblock. Now that I can add new books to the 'future-reading-list-subcomponent; I now need to be able to "drag" a future-book to the currently-reading section. I need to be able to drag it, THEN start making comments for that specific book. Problem is ... I don't know how to drag-and-drop. So forward progress is paused until I teach myself how to drag-and-drop. Appears that react-beautiful-dnd is what I have to learn
 
+#41 Roadblock Update. So I've learned a bit about how to make a <div> draggable. It is not that difficult. Just add the 'draggable' attribute to the div. However, 'dropping' and then making sure the data follows the div is the next thing I need to figure out. This will involve State and Ref probably.
+
 
