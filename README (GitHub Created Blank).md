@@ -85,4 +85,6 @@
 
 #41 Roadblock Update. So I've learned a bit about how to make a <div> draggable. It is not that difficult. Just add the 'draggable' attribute to the div. However, 'dropping' and then making sure the data follows the div is the next thing I need to figure out. This will involve State and Ref probably.
 
+#42 Starting to think I'm better off rendering a button in each of the books ....
+
 
