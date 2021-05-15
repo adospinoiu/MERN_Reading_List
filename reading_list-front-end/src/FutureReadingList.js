@@ -1,21 +1,18 @@
 import React from 'react';
 import './FutureReadingList.css';
 
+import { IconButton } from '@material-ui/core';
 import NotListedLocationIcon from '@material-ui/icons/NotListedLocation';
+import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
 
 
 function FutureReadingList({ newBook }) {
-    const DraggingStarted = () => {
-        console.log('Dragging Started ...')
+    const startRead = () => {
+        console.log('Added to Currently Reading');
     }
 
     const futureBook = newBook.map((data) => (
-        <div 
-            draggable="true" 
-            className="futureReadingList"
-            onClick={DraggingStarted()}
-        >
-
+        <div className="futureReadingList">
             <NotListedLocationIcon />
 
             <div className="futureReadingList__info">
@@ -23,6 +20,10 @@ function FutureReadingList({ newBook }) {
                 <p>{data.author}</p>
                 <p>{data.recommendedBy}</p>
             </div>
+
+            <IconButton>
+                <ChromeReaderModeIcon onClick={startRead}/>
+            </IconButton>
         </div>
     ))
 

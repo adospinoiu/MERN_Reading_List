@@ -87,4 +87,6 @@
 
 #42 Starting to think I'm better off rendering a button in each of the books ....
 
+#43 Decided to move away from the Drag-n-Drop because I was stuck too long. I'm going to move forward with moving the information from section to section with buttons.
+
 
