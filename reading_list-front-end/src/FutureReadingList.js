@@ -7,22 +7,21 @@ import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
 
 
 function FutureReadingList({ newBook }) {
-    const startRead = () => {
-        console.log('Added to Currently Reading');
-    }
-
     const futureBook = newBook.map((data) => (
-        <div className="futureReadingList">
+        <div 
+            key={data.id} 
+            className="futureReadingList"
+        >
             <NotListedLocationIcon />
 
-            <div className="futureReadingList__info">
+            <div key={data.id} className="futureReadingList__info">
                 <h3>{data.title}</h3>
                 <p>{data.author}</p>
                 <p>{data.recommendedBy}</p>
             </div>
 
             <IconButton>
-                <ChromeReaderModeIcon onClick={startRead}/>
+                <ChromeReaderModeIcon/>
             </IconButton>
         </div>
     ))

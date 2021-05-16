@@ -17,7 +17,7 @@ function App() {
       })
   }, [])
 
-  console.log(newBook);
+  console.log('GET API TO DATABASE...', newBook);
 
   return (
     <div className="app">

@@ -89,4 +89,8 @@
 
 #43 Decided to move away from the Drag-n-Drop because I was stuck too long. I'm going to move forward with moving the information from section to section with buttons.
 
+#44 Interesting side-note: learned something interesting about the useEffect-Hook. Right now, my GET API call is in a useEffect hook. So there is a GET CALL to the database to grab the data which will be passed down to the component to render it. The useEffect-Hook, at the end, where the [] are ... if I place a 'monitor' in the [newBook] (a monitor such as ... the newBook variable changing) ... the useEffect-Hook will fire on a consistent basis. In essence do a GET-CALL to the database all the time. This might not be a good idea because it will bombard the database with GET CALLS all the time. NOT GOOD.
+
+BETTER: --- The GET CALL needs to be re-triggered WHEN there is a change in the database. So that the user does not have to 'refresh' to grab the new data from the database. (i.e. PUSHER)
+
 
