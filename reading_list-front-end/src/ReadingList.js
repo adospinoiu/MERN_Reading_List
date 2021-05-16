@@ -14,6 +14,8 @@ import ViewListIcon from '@material-ui/icons/ViewList';
 
 
 function ReadingList({ newBook }) {
+    // console.log(newBook[0]._id);
+
     const [ title, setTitle ] = useState("");
     const [ author, setAuthor ] = useState("");
     const [ recommended, setRecommended ] = useState("");
@@ -33,6 +35,10 @@ function ReadingList({ newBook }) {
 
         console.log('POST API TO DATABASE ...', title, author, recommended)
     }
+
+    // const Clicked = () => {
+    //     console.log('Clicked ...')
+    // }
 
     return (
         <div className="readinglist">
@@ -90,11 +96,14 @@ function ReadingList({ newBook }) {
                     <p>Reading List</p>
                 </div>
 
-                <div className="futurereading__list">
+                <div 
+                    className="futurereading__list"
+                    // onClick={Clicked}
+                >
                     <FutureReadingList newBook={newBook}/>
                 </div>
             </div>
-        </div >
+        </div>
     )
 }
 
