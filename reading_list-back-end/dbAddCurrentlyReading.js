@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const addCurrentlyReadingSchema = mongoose.Schema({
-    bookId: String,
+    _id: String,
     title: String,
     author: String,
     recommendedBy: String,

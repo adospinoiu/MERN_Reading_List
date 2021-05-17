@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './FutureReadingList.css';
+import axios from './axios';
 
 import { IconButton } from '@material-ui/core';
 import NotListedLocationIcon from '@material-ui/icons/NotListedLocation';
@@ -15,8 +16,20 @@ function FutureReadingList({ newBook }) {
     const [ recommendedBy, setRecommended ] = useState("");
     const [ notes, setNotes ] = useState("");
 
-    const Clicked = (bookId) => {
-        console.log('Clicked ...', bookId)
+    const Clicked = async (data) => {
+        console.log('Clicked ...', data)
+
+        setBookId(data._id);
+        setTitle(data.title);
+        setAuthor(data.author);
+        setRecommended(data.recommendedBy);
+
+        await axios.post('/addCurrentlyReading/new', {
+            _id: bookId,
+            title: title,
+            author: author,
+            recommendedBy: recommendedBy,
+        })
     }
 
     const futureBook = newBook.map((data) => (
