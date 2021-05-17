@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './FutureReadingList.css';
 
 import { IconButton } from '@material-ui/core';
@@ -8,6 +8,12 @@ import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
 
 function FutureReadingList({ newBook }) {
     console.log('Future Reading List Comp ...', newBook);
+
+    const [ bookId, setBookId ] = useState("");
+    const [ title, setTitle ] = useState("");
+    const [ author, setAuthor ] = useState("");
+    const [ recommendedBy, setRecommended ] = useState("");
+    const [ notes, setNotes ] = useState("");
 
     const Clicked = (bookId) => {
         console.log('Clicked ...', bookId)

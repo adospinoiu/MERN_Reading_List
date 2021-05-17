@@ -2,7 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 
 import AddNewBook from './dbAddNewBook.js';
-import AddCurrentlyReading from '/.dbAddCurrentlyReading.js';
+import AddCurrentlyReading from './dbAddCurrentlyReading.js';
 
 // App config
 const app = express();
