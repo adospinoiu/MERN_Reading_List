@@ -95,4 +95,6 @@ BETTER: --- The GET CALL needs to be re-triggered WHEN there is a change in the 
 
 #45 I got IT!!! Part of the problem anyway. But I got it. So the data is pulled with a GET API call, then it is passed down the the right component and when the specific render is clicked, I can identify which specifc rendered information is clicked! (HINT: had to make the onClick a function).
 
+$46 Added scroll-ability to the Reading-List-SubComponent to enable to scroll up-and-down to see the whole list
+
 

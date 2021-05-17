@@ -17,7 +17,7 @@ function FutureReadingList({ newBook }) {
         <div 
             key={data._id} 
             className="futureReadingList"
-            onClick={() => Clicked(data._id)}
+            onClick={() => Clicked(data)}
         >
             <NotListedLocationIcon />
 
