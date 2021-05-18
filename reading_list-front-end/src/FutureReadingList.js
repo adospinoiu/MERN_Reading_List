@@ -15,21 +15,9 @@ function FutureReadingList({ newBook }) {
     const [ currentAuthor, setCurrentAuthor ] = useState("");
     const [ currentRecommendedBy, setCurrentRecommended ] = useState("");
 
-    const Clicked = (currentBook) => {
-        console.log('Clicked ...', currentBook);
+    const sendCurrentlyReading = () => {
 
-        setCurrentBookId(currentBook[0]._id);
-        setCurrentTitle(currentBook[0].title);
-        setCurrentAuthor(currentBook[0].author);
-        setCurrentRecommended(currentBook[0].recommendedBy);
-    }
-
-    console.log('INFO TO POST TO CURRENT READING ...', currentBookId, currentTitle, currentAuthor, currentRecommendedBy)
-
-    const sendCurrentlyReading = async (e) => {
-        e.preventDefault();
-
-        await axios.post('/addCurrentlyReading/new', {
+        axios.post('/addCurrentlyReading/new', {
             _id: currentBookId,
             title: currentTitle,
             author: currentAuthor,
@@ -41,10 +29,22 @@ function FutureReadingList({ newBook }) {
         setCurrentAuthor('');
         setCurrentRecommended('');
     }
-        
-        // console.log('POST API TO CURRENT READING ...', currentBookId, currentTitle, currentAuthor, currentRecommendedBy)
     
+    const Clicked = (currentBook) => {
+        console.log('Clicked ...', currentBook);
 
+        setCurrentBookId(currentBook[0]._id);
+        setCurrentTitle(currentBook[0].title);
+        setCurrentAuthor(currentBook[0].author);
+        setCurrentRecommended(currentBook[0].recommendedBy);
+
+        sendCurrentlyReading();
+    }
+
+    console.log('INFO TO POST TO CURRENT READING ...', currentBookId, currentTitle, currentAuthor, currentRecommendedBy)
+
+
+    
     const futureBook = newBook.map((data) => (
         <div 
             key={data._id} 
