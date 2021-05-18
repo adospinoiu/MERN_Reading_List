@@ -18,14 +18,18 @@ function FutureReadingList({ newBook }) {
     const Clicked = (currentBook) => {
         console.log('Clicked ...', currentBook);
 
-        setCurrentBookId(currentBook._id);
-        setCurrentTitle(currentBook.title);
-        setCurrentAuthor(currentBook.author);
-        setCurrentRecommended(currentBook.recommendedBy);
+        setCurrentBookId(currentBook[0]._id);
+        setCurrentTitle(currentBook[0].title);
+        setCurrentAuthor(currentBook[0].author);
+        setCurrentRecommended(currentBook[0].recommendedBy);
+    }
 
-        console.log('INFO TO POST TO CURRENT READING ...', currentBookId, currentTitle, currentAuthor, currentRecommendedBy)
+    console.log('INFO TO POST TO CURRENT READING ...', currentBookId, currentTitle, currentAuthor, currentRecommendedBy)
 
-        axios.post('/addCurrentlyReading/new', {
+    const sendCurrentlyReading = async (e) => {
+        e.preventDefault();
+
+        await axios.post('/addCurrentlyReading/new', {
             _id: currentBookId,
             title: currentTitle,
             author: currentAuthor,
@@ -36,15 +40,16 @@ function FutureReadingList({ newBook }) {
         setCurrentTitle('');
         setCurrentAuthor('');
         setCurrentRecommended('');
-
-        // console.log('POST API TO CURRENT READING ...', currentBookId, currentTitle, currentAuthor, currentRecommendedBy)
     }
+        
+        // console.log('POST API TO CURRENT READING ...', currentBookId, currentTitle, currentAuthor, currentRecommendedBy)
+    
 
     const futureBook = newBook.map((data) => (
         <div 
             key={data._id} 
             className="futureReadingList"
-            onClick={() => Clicked(data)}
+            onClick={() => Clicked([data])}
         >
             <NotListedLocationIcon />
 

@@ -101,4 +101,6 @@ $46 Added scroll-ability to the Reading-List-SubComponent to enable to scroll up
 
 $48 There is something going on with the secondary POST that is executed from the Future-Reading-List-Subcomponent when the onClick is activated. The information is not being passed on. Not sure why yet.
 
+#49 I think I got it. I have to have a function within a function. First I have to setState for all the variables from the data being passed down. Then once all the setState(s) are set, I have to send that information using a POST-Route. So a function within a function.
+
 
