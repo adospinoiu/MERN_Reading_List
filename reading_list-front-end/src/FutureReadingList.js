@@ -8,28 +8,34 @@ import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
 
 
 function FutureReadingList({ newBook }) {
-    console.log('Future Reading List Comp ...', newBook);
+    console.log('Future Reading List Passdown ...', newBook);
 
-    const [ bookId, setBookId ] = useState("");
-    const [ title, setTitle ] = useState("");
-    const [ author, setAuthor ] = useState("");
-    const [ recommendedBy, setRecommended ] = useState("");
-    const [ notes, setNotes ] = useState("");
+    const [ currentBookId, setCurrentBookId ] = useState("");
+    const [ currentTitle, setCurrentTitle ] = useState("");
+    const [ currentAuthor, setCurrentAuthor ] = useState("");
+    const [ currentRecommendedBy, setCurrentRecommended ] = useState("");
 
-    const Clicked = async (data) => {
-        console.log('Clicked ...', data)
+    const Clicked = (currentBook) => {
+        console.log('Clicked ...', currentBook);
 
-        setBookId(data._id);
-        setTitle(data.title);
-        setAuthor(data.author);
-        setRecommended(data.recommendedBy);
+        setCurrentBookId(currentBook._id);
+        setCurrentTitle(currentBook.title);
+        setCurrentAuthor(currentBook.author);
+        setCurrentRecommended(currentBook.recommendedBy);
 
-        await axios.post('/addCurrentlyReading/new', {
-            _id: bookId,
-            title: title,
-            author: author,
-            recommendedBy: recommendedBy,
+        axios.post('/addCurrentlyReading/new', {
+            _id: currentBookId,
+            title: currentTitle,
+            author: currentAuthor,
+            recommendedBy: currentRecommendedBy,
         })
+
+        setCurrentBookId('');
+        setCurrentTitle('');
+        setCurrentAuthor('');
+        setCurrentRecommended('');
+
+        console.log('POST API TO CURRENT READING ...', currentBookId, currentTitle, currentAuthor, currentRecommendedBy)
     }
 
     const futureBook = newBook.map((data) => (

@@ -97,4 +97,6 @@ BETTER: --- The GET CALL needs to be re-triggered WHEN there is a change in the 
 
 $46 Added scroll-ability to the Reading-List-SubComponent to enable to scroll up-and-down to see the whole list
 
+#47 Started working on the POST-API to post the data from the Future-Reading-List Subcomponent to the Currently-Reading-List Subcomponent when a div is clicked
+
 
