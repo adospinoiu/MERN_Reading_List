@@ -23,6 +23,8 @@ function FutureReadingList({ newBook }) {
         setCurrentAuthor(currentBook.author);
         setCurrentRecommended(currentBook.recommendedBy);
 
+        console.log('INFO TO POST TO CURRENT READING ...', currentBookId, currentTitle, currentAuthor, currentRecommendedBy)
+
         axios.post('/addCurrentlyReading/new', {
             _id: currentBookId,
             title: currentTitle,
@@ -35,7 +37,7 @@ function FutureReadingList({ newBook }) {
         setCurrentAuthor('');
         setCurrentRecommended('');
 
-        console.log('POST API TO CURRENT READING ...', currentBookId, currentTitle, currentAuthor, currentRecommendedBy)
+        // console.log('POST API TO CURRENT READING ...', currentBookId, currentTitle, currentAuthor, currentRecommendedBy)
     }
 
     const futureBook = newBook.map((data) => (

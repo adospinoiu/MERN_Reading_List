@@ -99,4 +99,6 @@ $46 Added scroll-ability to the Reading-List-SubComponent to enable to scroll up
 
 #47 Started working on the POST-API to post the data from the Future-Reading-List Subcomponent to the Currently-Reading-List Subcomponent when a div is clicked
 
+$48 There is something going on with the secondary POST that is executed from the Future-Reading-List-Subcomponent when the onClick is activated. The information is not being passed on. Not sure why yet.
+
 
