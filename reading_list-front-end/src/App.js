@@ -9,13 +9,21 @@ import ReadingList from './ReadingList';
 
 function App() {
   const [ newBook, setNewBook ] = useState([]);
+  const [ currentBook, setCurrentBook ] = useState([]);
 
   useEffect(() => {
     axios.get('/addNewBook/added')
       .then(response => {
         setNewBook(response.data)
       })
-  }, [])
+  }, []);
+
+  useEffect(() => {
+    axios.get('/addNewBook/added')
+      .then(response => {
+        setCurrentBook(response.data)
+      })
+  }, []);
 
   console.log('GET API TO DATABASE...', newBook);
 

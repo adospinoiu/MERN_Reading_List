@@ -98,7 +98,6 @@ function ReadingList({ newBook }) {
 
                 <div 
                     className="futurereading__list"
-                    // onClick={Clicked}
                 >
                     <FutureReadingList newBook={newBook}/>
                 </div>

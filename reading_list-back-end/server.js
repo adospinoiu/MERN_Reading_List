@@ -56,6 +56,18 @@ app.post('/addNewBook/new', (req, res) => {
     })
 })
 
+app.get('/addCurrentlyReading/current', (req, res) => {
+    const currentlyReading = req.body
+
+    AddCurrentlyReading.find(currentlyReading, (err, data) => {
+        if (err) {
+            res.status(500).send(err)
+        } else {
+            res.status(201).send(data)
+        }
+    })
+})
+
 app.post('/addCurrentlyReading/new', (req, res) => {
     const currentlyReading = req.body
 
