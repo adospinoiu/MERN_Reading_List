@@ -19,18 +19,19 @@ function App() {
   }, []);
 
   useEffect(() => {
-    axios.get('/addNewBook/added')
+    axios.get('/addCurrentlyReading/current')
       .then(response => {
         setCurrentBook(response.data)
       })
   }, []);
 
-  console.log('GET API TO DATABASE...', newBook);
+  console.log('GET API FUTURE-READING-LIST-SUB...', newBook);
+  console.log('GET API CURRENTLY-READING-SUB...', currentBook);
 
   return (
     <div className="app">
       <div className="app__body">
-        <ReadingList newBook={newBook}/>
+        <ReadingList newBook={newBook} currentBook={currentBook}/>
 
         <BookNotes />
 
