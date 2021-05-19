@@ -10,10 +10,10 @@ import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
 function FutureReadingList({ newBook }) {
     console.log('Future Reading List Passdown ...', newBook);
 
-    const [ currentBookId, setCurrentBookId ] = useState("");
-    const [ currentTitle, setCurrentTitle ] = useState("");
-    const [ currentAuthor, setCurrentAuthor ] = useState("");
-    const [ currentRecommendedBy, setCurrentRecommended ] = useState("");
+    let currentBookId = "";
+    let currentTitle = "";
+    let currentAuthor = "";
+    let currentRecommendedBy = "";
 
     const sendCurrentlyReading = () => {
 
@@ -24,24 +24,24 @@ function FutureReadingList({ newBook }) {
             recommendedBy: currentRecommendedBy,
         })
 
-        setCurrentBookId('');
-        setCurrentTitle('');
-        setCurrentAuthor('');
-        setCurrentRecommended('');
     }
     
     const Clicked = (currentBook) => {
         console.log('Clicked ...', currentBook);
 
-        setCurrentBookId(currentBook[0]._id);
-        setCurrentTitle(currentBook[0].title);
-        setCurrentAuthor(currentBook[0].author);
-        setCurrentRecommended(currentBook[0].recommendedBy);
+        let currentBookId = currentBook[0]._id;
+        console.log(currentBookId)
+            
+        let currentTitle = currentBook[0].title;
+
+        let currentAuthor = currentBook[0].author;
+
+        let currentRecommendedBy = currentBook[0].recommendedBy;
 
         sendCurrentlyReading();
     }
 
-    console.log('INFO TO POST TO CURRENT READING ...', currentBookId, currentTitle, currentAuthor, currentRecommendedBy)
+    // console.log('INFO TO POST TO CURRENT READING ...', currentBookId, currentTitle, currentAuthor, currentRecommendedBy)
 
 
     
