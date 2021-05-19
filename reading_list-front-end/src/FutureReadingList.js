@@ -30,13 +30,16 @@ function FutureReadingList({ newBook }) {
         console.log('Clicked ...', currentBook);
 
         let currentBookId = currentBook[0]._id;
-        console.log(currentBookId)
+        console.log('ASSIGNED BookID ...', currentBookId)
             
         let currentTitle = currentBook[0].title;
+        console.log('ASSIGNED Title ...', currentTitle)
 
         let currentAuthor = currentBook[0].author;
+        console.log('ASSIGNED Author ...', currentAuthor)
 
         let currentRecommendedBy = currentBook[0].recommendedBy;
+        console.log('ASSIGNED RecommendedBy ...', currentRecommendedBy)
 
         sendCurrentlyReading();
     }
