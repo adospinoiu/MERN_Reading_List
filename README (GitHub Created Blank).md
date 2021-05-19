@@ -103,4 +103,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #49 I think I got it. I have to have a function within a function. First I have to setState for all the variables from the data being passed down. Then once all the setState(s) are set, I have to send that information using a POST-Route. So a function within a function.
 
+#50 I got IT!!! It works!!! The issue was trying to use useState again. So I'm using useState to pass the information from the main component to the subComponent. Then I tried the same useState to pass information from one subComponent to the next. That doesn't work. I had to remove the second instance of useState and simply pass the information on using variables. Then the POST worked perfectly!
+
 

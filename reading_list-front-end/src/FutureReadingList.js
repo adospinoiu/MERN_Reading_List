@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './FutureReadingList.css';
 import axios from './axios';
 
@@ -10,43 +10,30 @@ import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
 function FutureReadingList({ newBook }) {
     console.log('Future Reading List Passdown ...', newBook);
 
-    let currentBookId = "";
-    let currentTitle = "";
-    let currentAuthor = "";
-    let currentRecommendedBy = "";
-
-    const sendCurrentlyReading = () => {
-
+    const sendCurrentlyReading = (currentBookId, currentTitle, currentAuthor, currentRecommendedBy) => {
         axios.post('/addCurrentlyReading/new', {
             _id: currentBookId,
             title: currentTitle,
             author: currentAuthor,
             recommendedBy: currentRecommendedBy,
         })
-
     }
     
     const Clicked = (currentBook) => {
         console.log('Clicked ...', currentBook);
 
         let currentBookId = currentBook[0]._id;
-        console.log('ASSIGNED BookID ...', currentBookId)
-            
         let currentTitle = currentBook[0].title;
-        console.log('ASSIGNED Title ...', currentTitle)
-
         let currentAuthor = currentBook[0].author;
-        console.log('ASSIGNED Author ...', currentAuthor)
-
         let currentRecommendedBy = currentBook[0].recommendedBy;
-        console.log('ASSIGNED RecommendedBy ...', currentRecommendedBy)
+        
+        console.log('ASSIGNED BookID ...', currentBookId);
+        console.log('ASSIGNED Title ...', currentTitle);
+        console.log('ASSIGNED Author ...', currentAuthor);
+        console.log('ASSIGNED RecommendedBy ...', currentRecommendedBy);
 
-        sendCurrentlyReading();
+        sendCurrentlyReading(currentBookId, currentTitle, currentAuthor, currentRecommendedBy);
     }
-
-    // console.log('INFO TO POST TO CURRENT READING ...', currentBookId, currentTitle, currentAuthor, currentRecommendedBy)
-
-
     
     const futureBook = newBook.map((data) => (
         <div 
