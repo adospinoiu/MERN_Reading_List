@@ -56,6 +56,10 @@
     background-color: rgb(240, 218, 94);
 }
 
+.readinglist__currentlyreading::-webkit-scrollbar {
+    display: none;
+}
+
 .currentlyreading__header {
     display: flex;
     justify-content: space-between;
@@ -79,6 +83,10 @@
     /* border-bottom: 1px solid lightgrey; */
     border: 2px solid red;
     background-color: rgb(240, 218, 94);
+}
+
+.readinglist__futurereading::-webkit-scrollbar {
+    display: none;
 }
 
 .futurereading__header {
