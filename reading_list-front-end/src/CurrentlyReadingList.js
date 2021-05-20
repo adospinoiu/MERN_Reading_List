@@ -3,16 +3,28 @@ import './CurrentlyReadingList.css';
 
 import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
 
-function CurrentlyReadingList() {
-    return (
-        <div className="currentlyReadingList">
+function CurrentlyReadingList({ currentBook }) {
+    console.log('Currently Reading List Passdown ...', currentBook);
+    
+    const readingNowBook = currentBook.map((data) => {
+        <div 
+            key={data._id}
+            className="currentlyReadingList"
+        >
             <EmojiObjectsIcon />
 
-            <div className="currentlyReadingList__info">
-                <h3>This is the book name</h3>
-                <p>This is who recommended it</p>
+            <div
+                key={data._id}
+                className="currentlyReadingList__info"
+            >
+                <h3>{data.title}</h3>
+                <p>{data.author}</p>
             </div>
         </div>
+    }) 
+    
+    return (
+        ( readingNowBook )
     )
 }
 

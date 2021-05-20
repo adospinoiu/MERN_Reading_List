@@ -43,7 +43,10 @@ function FutureReadingList({ newBook }) {
         >
             <NotListedLocationIcon />
 
-            <div key={data._id} className="futureReadingList__info">
+            <div 
+                key={data._id}             
+                className="futureReadingList__info"
+            >
                 <h3>{data.title}</h3>
                 <p>{data.author}</p>
                 <p>{data.recommendedBy}</p>

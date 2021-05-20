@@ -13,7 +13,7 @@ import ViewListIcon from '@material-ui/icons/ViewList';
 
 
 
-function ReadingList({ newBook }) {
+function ReadingList({ newBook, currentBook }) {
     // console.log(newBook[0]._id);
 
     const [ title, setTitle ] = useState("");
@@ -83,7 +83,7 @@ function ReadingList({ newBook }) {
                 </div>
 
                 <div className="currentlyreading__list">
-                    <CurrentlyReadingList />
+                    <CurrentlyReadingList currentBook={currentBook} />
                 </div>
                 
             
@@ -99,7 +99,7 @@ function ReadingList({ newBook }) {
                 <div 
                     className="futurereading__list"
                 >
-                    <FutureReadingList newBook={newBook}/>
+                    <FutureReadingList newBook={newBook} />
                 </div>
             </div>
         </div>
