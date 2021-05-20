@@ -48,8 +48,9 @@
 /* Currently Reading Section */
 .readinglist__currentlyreading {
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+    flex: 1;
+    overflow: scroll;
+
     /* border-bottom: 1px solid lightgrey; */
     border: 2px solid red;
     background-color: rgb(240, 218, 94);

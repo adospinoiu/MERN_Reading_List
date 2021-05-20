@@ -36,10 +36,6 @@ function ReadingList({ newBook, currentBook }) {
         console.log('POST API TO DATABASE ...', title, author, recommended)
     }
 
-    // const Clicked = () => {
-    //     console.log('Clicked ...')
-    // }
-
     return (
         <div className="readinglist">
             <div className="readinglist__addnewbook">
