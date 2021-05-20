@@ -105,4 +105,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #50 I got IT!!! It works!!! The issue was trying to use useState again. So I'm using useState to pass the information from the main component to the subComponent. Then I tried the same useState to pass information from one subComponent to the next. That doesn't work. I had to remove the second instance of useState and simply pass the information on using variables. Then the POST worked perfectly!
 
+#51 The pass-through of information now works. The information is passed from the entry fields to the future-reading-list subcomponent. Then upon a user click, the desired book from the reading-list is moved to the currently-reading-list-subcomponent. So the information now works and flows properly! Next up is the notes section which needs to be tied to the currently-reading-list clicked on item.
+
 

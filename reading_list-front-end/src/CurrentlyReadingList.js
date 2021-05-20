@@ -5,8 +5,8 @@ import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
 
 function CurrentlyReadingList({ currentBook }) {
     console.log('Currently Reading List Passdown ...', currentBook);
-    
-    const readingNowBook = currentBook.map((data) => {
+
+    const readingNowBook = currentBook.map((data) => (
         <div 
             key={data._id}
             className="currentlyReadingList"
@@ -21,7 +21,7 @@ function CurrentlyReadingList({ currentBook }) {
                 <p>{data.author}</p>
             </div>
         </div>
-    }) 
+    )) 
     
     return (
         ( readingNowBook )
