@@ -107,4 +107,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #51 The pass-through of information now works. The information is passed from the entry fields to the future-reading-list subcomponent. Then upon a user click, the desired book from the reading-list is moved to the currently-reading-list-subcomponent. So the information now works and flows properly! Next up is the notes section which needs to be tied to the currently-reading-list clicked on item.
 
+#52 Need to figure out how to "lift state up". Might be difficult to pass information from a child component to a parent component. So looking into learning that now.
+
 
