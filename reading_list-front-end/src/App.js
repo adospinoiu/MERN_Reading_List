@@ -31,9 +31,9 @@ function App() {
   return (
     <div className="app">
       <div className="app__body">
-        <ReadingList newBook={newBook} currentBook={currentBook}/>
+        <ReadingList newBook={newBook} />
 
-        <BookNotes />
+        <BookNotes currentBook={currentBook} />
 
         <ReadBooks />
       </div>

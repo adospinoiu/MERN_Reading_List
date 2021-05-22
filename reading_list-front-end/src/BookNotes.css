@@ -6,6 +6,8 @@
     background-color: rgb(240, 218, 94);
     padding: 20px;
 }
+/* ############################# */
+
 
 /* Currently Reading Section */
 .readinglist__currentlyreading {
@@ -32,18 +34,20 @@
 }
 
 .currentlyreading__list {
+    display: flex;
     border: 2px solid red;
     background-color: rgb(243, 225, 177);
 }
+/* ############################# */
 
-/* ### Header Section ### */
+
+/* ###### Header Section ###### */
 .booknotes__header {
     padding: 20px;
     display: flex;
     align-items: center;
     border-bottom: 1px solid lightgrey;
     background-color: rgb(205, 236, 248);
-
     border: 2px solid red;
 }
 
@@ -62,7 +66,7 @@
 }
 /* ############################# */
 
-/* ### Body Section ### */ 
+/* ###### Body Section ###### */ 
 
 .booknotes__body {
     flex: 1;
