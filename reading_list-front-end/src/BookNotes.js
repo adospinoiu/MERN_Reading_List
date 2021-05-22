@@ -1,12 +1,29 @@
 import React from 'react';
 import './BookNotes.css';
 
+// Import Sub-Components
+import CurrentlyReadingList from './CurrentlyReadingList';
+
+// Import Material-Ui Related
 import SpeakerNotesIcon from '@material-ui/icons/SpeakerNotes';
 import CommentIcon from '@material-ui/icons/Comment';
+import BookmarksIcon from '@material-ui/icons/Bookmarks';
 
-function BookNotes() {
+function BookNotes({ currentBook }) {
     return (
         <div className="booknotes">
+            <div className="readinglist__currentlyreading">
+                <div className="currentlyreading__header">
+                    <BookmarksIcon />
+                    
+                    <p>Currently Reading</p>
+                </div>
+
+                <div className="currentlyreading__list">
+                    <CurrentlyReadingList currentBook={currentBook} />
+                </div>
+            </div>
+
             <div className="booknotes__header">
                 <SpeakerNotesIcon />
 
@@ -14,7 +31,6 @@ function BookNotes() {
                     <h3>Title of the Book</h3>
                     <p>Last comment added on</p>
                 </div>
-
             </div>
 
             <div className="booknotes__body">

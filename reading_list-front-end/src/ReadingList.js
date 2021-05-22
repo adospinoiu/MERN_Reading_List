@@ -81,8 +81,6 @@ function ReadingList({ newBook, currentBook }) {
                 <div className="currentlyreading__list">
                     <CurrentlyReadingList currentBook={currentBook} />
                 </div>
-                
-            
             </div>
 
             <div className="readinglist__futurereading">

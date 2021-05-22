@@ -7,6 +7,35 @@
     padding: 20px;
 }
 
+/* Currently Reading Section */
+.readinglist__currentlyreading {
+    padding: 20px;
+    flex: 1;
+    overflow: scroll;
+
+    /* border-bottom: 1px solid lightgrey; */
+    border: 2px solid red;
+    background-color: rgb(240, 218, 94);
+}
+
+.readinglist__currentlyreading::-webkit-scrollbar {
+    display: none;
+}
+
+.currentlyreading__header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid red;
+    background-color: rgb(243, 225, 177);
+}
+
+.currentlyreading__list {
+    border: 2px solid red;
+    background-color: rgb(243, 225, 177);
+}
+
 /* ### Header Section ### */
 .booknotes__header {
     padding: 20px;
