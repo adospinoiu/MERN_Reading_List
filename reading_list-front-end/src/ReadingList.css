@@ -5,7 +5,7 @@
     border-right: 1px solid lightgrey;
 }
 
-/* Add New Book Section  */
+/* ###### Add New Book Section ###### */
 .readinglist__addnewbook {
     padding: 20px;
     display: flex;
@@ -45,36 +45,7 @@
     border-radius: 10px;
 }
 
-/* Currently Reading Section */
-.readinglist__currentlyreading {
-    padding: 20px;
-    flex: 1;
-    overflow: scroll;
-
-    /* border-bottom: 1px solid lightgrey; */
-    border: 2px solid red;
-    background-color: rgb(240, 218, 94);
-}
-
-.readinglist__currentlyreading::-webkit-scrollbar {
-    display: none;
-}
-
-.currentlyreading__header {
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
-    padding: 10px;
-    border: 2px solid red;
-    background-color: rgb(243, 225, 177);
-}
-
-.currentlyreading__list {
-    border: 2px solid red;
-    background-color: rgb(243, 225, 177);
-}
-
-/* Future Reading Section */
+/* ###### Future Reading Section ###### */
 .readinglist__futurereading {
     padding: 20px;
     flex: 1;

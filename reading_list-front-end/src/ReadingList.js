@@ -3,17 +3,15 @@ import axios from './axios';
 import './ReadingList.css';
 
 // Import Sub-Components
-import CurrentlyReadingList from './CurrentlyReadingList';
 import FutureReadingList from './FutureReadingList';
 
 // Import Material-Ui Related
 import MenuBookIcon from '@material-ui/icons/MenuBook';
-import BookmarksIcon from '@material-ui/icons/Bookmarks';
 import ViewListIcon from '@material-ui/icons/ViewList';
 
 
 
-function ReadingList({ newBook, currentBook }) {
+function ReadingList({ newBook }) {
     // console.log(newBook[0]._id);
 
     const [ title, setTitle ] = useState("");
@@ -68,18 +66,6 @@ function ReadingList({ newBook, currentBook }) {
                         />
 
                         <button onClick={sendNewBook} type="submit">Add to List</button>
-                </div>
-            </div>
-
-            <div className="readinglist__currentlyreading">
-                <div className="currentlyreading__header">
-                    <BookmarksIcon />
-                    
-                    <p>Currently Reading</p>
-                </div>
-
-                <div className="currentlyreading__list">
-                    <CurrentlyReadingList currentBook={currentBook} />
                 </div>
             </div>
 
