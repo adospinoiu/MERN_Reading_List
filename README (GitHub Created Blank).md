@@ -109,4 +109,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #52 Need to figure out how to "lift state up". Might be difficult to pass information from a child component to a parent component. So looking into learning that now.
 
+#53 Moved the currently-reading subcomponent to the book-component. This way, when a user clicks the option to "move" an item from the 'reading-list-subcomponent' the information is then sent to the main component of the middle. Select information can then be passed from the main middle component down the tree to the children components.
+
 

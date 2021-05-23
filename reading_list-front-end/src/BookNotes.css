@@ -12,7 +12,6 @@
 /* Currently Reading Section */
 .readinglist__currentlyreading {
     padding: 20px;
-    flex: 1;
     overflow: scroll;
 
     /* border-bottom: 1px solid lightgrey; */
@@ -102,7 +101,7 @@
 }
 /* ############################# */
 
-/* ### Footer Section ### */
+/* ###### Footer Section ###### */
 .booknotes__footer {
     padding: 20px;
     display: flex;
