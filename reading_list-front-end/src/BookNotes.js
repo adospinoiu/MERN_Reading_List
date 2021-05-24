@@ -9,9 +9,10 @@ import SpeakerNotesIcon from '@material-ui/icons/SpeakerNotes';
 import CommentIcon from '@material-ui/icons/Comment';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
 
+
 function BookNotes({ currentBook }) {
     console.log('Currently Reading List Passdown ...', currentBook);
-    
+
     return (
         <div className="booknotes">
             <div className="readinglist__currentlyreading">

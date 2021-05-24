@@ -111,4 +111,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #53 Moved the currently-reading subcomponent to the book-component. This way, when a user clicks the option to "move" an item from the 'reading-list-subcomponent' the information is then sent to the main component of the middle. Select information can then be passed from the main middle component down the tree to the children components.
 
+#54 Been really struggling with the 'state' aspect and making sure information flows down properly. Making information "flow-up" seems to be more difficult than flowing information down. I've had to re-structure the components and sub-components several times now to account for the information flow down.
+
 
