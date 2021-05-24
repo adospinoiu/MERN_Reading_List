@@ -1,7 +1,10 @@
 import React from 'react';
 import './CurrentlyReadingList.css';
 
+
+// Import Material-Ui Related
 import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
+import CommentIcon from '@material-ui/icons/Comment';
 
 function CurrentlyReadingList( { currentBook }) {
     console.log('Currently Reading List Passdown ...', currentBook);
@@ -40,8 +43,21 @@ function CurrentlyReadingList( { currentBook }) {
         </div>
     ))
 
+    const inputField = () => (
+        <div className="booknotes__footer">
+                <CommentIcon />
+
+                <form>
+                    <input placeholder="Notes to save" type="text"></input>
+
+                    <button type="submit">Save</button>
+                </form>
+            </div>
+    )
+
     return (
-        ( readingNowBook )
+        ( readingNowBook, 
+          inputField )
     )
 }
 
