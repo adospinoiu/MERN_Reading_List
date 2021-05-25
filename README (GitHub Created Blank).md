@@ -113,6 +113,9 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #54 Been really struggling with the 'state' aspect and making sure information flows down properly. Making information "flow-up" seems to be more difficult than flowing information down. I've had to re-structure the components and sub-components several times now to account for the information flow down.
 
-$55 I think I figured it out. Finally. From the parent-component, I have to pass down to the child-component a FUNCTION that will then return back to the parent-component the change in state of the child-component.
+#55 I think I figured it out. Finally. From the parent-component, I have to pass down to the child-component a FUNCTION that will then return back to the parent-component the change in state of the child-component.
+
+#56 That's it!!! I have to pass a function to the child-component. That function will return the data from the child-component to the parent-component!!! DAMN IT.
+
 
 
