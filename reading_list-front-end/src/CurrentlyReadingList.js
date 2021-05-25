@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './CurrentlyReadingList.css';
 
 
@@ -9,8 +9,10 @@ import CommentIcon from '@material-ui/icons/Comment';
 function CurrentlyReadingList( { currentBook }) {
     console.log('Currently Reading List Passdown ...', currentBook);
 
-    const Clicked = (currentBook) => {
-        console.log('Clicked ...', currentBook);
+    const [ currentReadingTitle, setCurrentReadingTitle ] = useState("");
+
+    const Clicked = (currentClickedBook) => {
+        console.log('Clicked ...', currentClickedBook);
 
         // let currentBookId = currentBook[0]._id;
         // let currentTitle = currentBook[0].title;
@@ -43,21 +45,8 @@ function CurrentlyReadingList( { currentBook }) {
         </div>
     ))
 
-    const inputField = () => (
-        <div className="booknotes__footer">
-                <CommentIcon />
-
-                <form>
-                    <input placeholder="Notes to save" type="text"></input>
-
-                    <button type="submit">Save</button>
-                </form>
-            </div>
-    )
-
     return (
-        ( readingNowBook, 
-          inputField )
+        ( readingNowBook )
     )
 }
 

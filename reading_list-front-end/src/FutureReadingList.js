@@ -47,9 +47,9 @@ function FutureReadingList({ newBook }) {
                 key={data._id}             
                 className="futureReadingList__info"
             >
-                <h3>{data.title}</h3>
+                <h4>{data.title}</h4>
                 <p>{data.author}</p>
-                <p>{data.recommendedBy}</p>
+                {/* <p>{data.recommendedBy}</p> */}
             </div>
 
             <IconButton>
