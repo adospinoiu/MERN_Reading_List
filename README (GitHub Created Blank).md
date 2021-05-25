@@ -115,7 +115,7 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #55 I think I figured it out. Finally. From the parent-component, I have to pass down to the child-component a FUNCTION that will then return back to the parent-component the change in state of the child-component.
 
-#56 That's it!!! I have to pass a function to the child-component. That function will return the data from the child-component to the parent-component!!! DAMN IT.
+#56 That's it!!! I have to pass a function to the child-component. That function will return the data from the child-component to the parent-component!!! DAMN IT. Stay tuned.
 
 
 
