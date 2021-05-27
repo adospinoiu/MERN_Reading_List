@@ -117,5 +117,7 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #56 That's it!!! I have to pass a function to the child-component. That function will return the data from the child-component to the parent-component!!! DAMN IT. Stay tuned.
 
+#57 Was not able to make any progress today.
+
 
 
