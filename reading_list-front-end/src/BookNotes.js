@@ -14,6 +14,7 @@ function BookNotes({ currentBook }) {
     console.log('Currently Reading List Passdown ...', currentBook);
 
     const [ getCurrentlyReadingData, setCurrentlyReadingData ] = useState('');
+    console.log('Data FROM Currently Reading Click ...', getCurrentlyReadingData)
 
     return (
         <div className="booknotes">
