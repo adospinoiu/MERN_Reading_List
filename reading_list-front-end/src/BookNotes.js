@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './BookNotes.css';
 
 // Import Sub-Components
@@ -13,6 +13,8 @@ import BookmarksIcon from '@material-ui/icons/Bookmarks';
 function BookNotes({ currentBook }) {
     console.log('Currently Reading List Passdown ...', currentBook);
 
+    const [ getCurrentlyReadingData, setCurrentlyReadingData ] = useState('');
+
     return (
         <div className="booknotes">
             <div className="readinglist__currentlyreading">
@@ -23,7 +25,9 @@ function BookNotes({ currentBook }) {
                 </div>
 
                 <div className="currentlyreading__list">
-                    <CurrentlyReadingList currentBook={currentBook} />
+                    <CurrentlyReadingList 
+                        currentBook={currentBook}
+                        getBookData={getCurrentlyReadingData => setCurrentlyReadingData(getCurrentlyReadingData)} />
                 </div>
             </div>
 
