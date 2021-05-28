@@ -121,5 +121,7 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #58 IT WORKED!!! I was able to get the click data FROM the child-component back up to the parent-component. Using useState TOO!!!! I had to pass a function to the child-component, from the parent-component. The child-component then used this fuction to return data based on an action done in the child. The data then flowed back up to the parent-component where the useState was utilized to update the info in the parent-component.
 
+#59 IT WORKS!!! The information flows up from the child-component. IT WORKS!!!
+
 
 

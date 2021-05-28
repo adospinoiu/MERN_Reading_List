@@ -36,7 +36,7 @@ function BookNotes({ currentBook }) {
                 <SpeakerNotesIcon />
 
                 <div className="booknotes__headerInfo">
-                    <h3>Title of the Book</h3>
+                    <h3>{getCurrentlyReadingData.title}</h3>
                     <p>Last comment added on</p>
                 </div>
             </div>

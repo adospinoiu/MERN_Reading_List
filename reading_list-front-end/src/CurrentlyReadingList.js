@@ -17,7 +17,7 @@ function CurrentlyReadingList( { currentBook, getBookData }) {
         <div 
             key={data._id}
             className="currentlyReadingList"
-            onClick={() => getBookData([data])}
+            onClick={() => getBookData(data)}
         >
             <EmojiObjectsIcon />
 
