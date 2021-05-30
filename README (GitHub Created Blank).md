@@ -123,5 +123,7 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #59 IT WORKS!!! The information flows up from the child-component. IT WORKS!!!
 
+#60 Now to try to sync the notes to the particular book selected
+
 
 
