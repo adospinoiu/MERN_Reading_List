@@ -125,5 +125,7 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #60 Now to try to sync the notes to the particular book selected
 
+#61 Have to figure out how to pull forward different notes based on the book selected
+
 
 
