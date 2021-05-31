@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 
 import AddNewBook from './dbAddNewBook.js';
 import AddCurrentlyReading from './dbAddCurrentlyReading.js';
+import AddBookNotes from './dbAddBookNotes.js';
 
 // App config
 const app = express();
@@ -83,10 +84,10 @@ app.post('/addCurrentlyReading/new', (req, res) => {
 })
 
 // This API-Route is tied to the BookNotes-Component. It takes the notes entered by the user and passes the information to the database to post so the user can save notes for each specific currently reading book.
-app.post('/addCurrentlyReading/new', (req, res) => {
-    const currentlyReading = req.body
+app.post('/addBookNotes/new', (req, res) => {
+    const bookNotes = req.body
 
-    AddCurrentlyReading.create(currentlyReading, (err, data) => {
+    AddBookNotes.create(bookNotes, (err, data) => {
         if (err) {
             res.status(500).send(err)
         } else {
