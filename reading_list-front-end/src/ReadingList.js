@@ -31,7 +31,7 @@ function ReadingList({ newBook }) {
         setAuthor('');
         setRecommended('');
 
-        console.log('POST API TO DATABASE ...', title, author, recommended)
+        // console.log('POST API TO DATABASE ...', title, author, recommended)
     }
 
     return (

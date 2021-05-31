@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from './axios';
 import './BookNotes.css';
 
 // Import Sub-Components
@@ -8,7 +9,7 @@ import CurrentlyReadingList from './CurrentlyReadingList';
 import SpeakerNotesIcon from '@material-ui/icons/SpeakerNotes';
 import CommentIcon from '@material-ui/icons/Comment';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
-import axios from 'axios';
+
 
 
 function BookNotes({ currentBook }) {
@@ -17,18 +18,23 @@ function BookNotes({ currentBook }) {
     const [ getCurrentlyReadingData, setCurrentlyReadingData ] = useState('');
     const [ notes, setNotes ] = useState('');
 
-    console.log('Data FROM Currently Reading Click ...', getCurrentlyReadingData);   
+    // console.log('Data FROM Currently Reading Click ...', getCurrentlyReadingData);   
     console.log('Book notes to POST...', notes);
 
-    const sendNotes = async (e) => {
-        e.preventDefault();
+    const currentlyReadingBookData = (getCurrentlyReadingData) => {
+        let currentlyReadingBookId = getCurrentlyReadingData._id;
 
-        await axios.post('/addBookNotes/new', {
-            bookId = getCurrentlyReadingData.title,
+        console.log(currentlyReadingBookId)
+        sendNotes(currentlyReadingBookId)
+    }
+
+    const sendNotes = (currentlyReadingBookId, notes) => {
+        console.log(notes);
+
+        axios.post('/addBookNotes/new', {
+            _id = currentlyReadingBookId,
             notes = notes,
         })
-
-        setNotes('');
     }
 
     return (

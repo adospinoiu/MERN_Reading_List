@@ -127,5 +127,7 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #61 Have to figure out how to pull forward different notes based on the book selected
 
+#62 Stuck. It does not like something. When I try to POST the notes typed by the user ... it does not like something in that path. Need to figure it out.
+
 
 

@@ -25,8 +25,8 @@ function App() {
       })
   }, []);
 
-  console.log('GET API FUTURE-READING-LIST-SUB...', newBook);
-  console.log('GET API CURRENTLY-READING-SUB...', currentBook);
+  // console.log('GET API FUTURE-READING-LIST-SUB...', newBook);
+  // console.log('GET API CURRENTLY-READING-SUB...', currentBook);
 
   return (
     <div className="app">

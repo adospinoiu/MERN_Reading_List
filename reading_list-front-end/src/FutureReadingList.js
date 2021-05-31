@@ -8,7 +8,7 @@ import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
 
 
 function FutureReadingList({ newBook }) {
-    console.log('Future Reading List Passdown ...', newBook);
+    // console.log('Future Reading List Passdown ...', newBook);
 
     const sendCurrentlyReading = (currentBookId, currentTitle, currentAuthor, currentRecommendedBy) => {
         axios.post('/addCurrentlyReading/new', {
@@ -27,10 +27,10 @@ function FutureReadingList({ newBook }) {
         let currentAuthor = currentBook[0].author;
         let currentRecommendedBy = currentBook[0].recommendedBy;
         
-        console.log('ASSIGNED BookID ...', currentBookId);
-        console.log('ASSIGNED Title ...', currentTitle);
-        console.log('ASSIGNED Author ...', currentAuthor);
-        console.log('ASSIGNED RecommendedBy ...', currentRecommendedBy);
+        // console.log('ASSIGNED BookID ...', currentBookId);
+        // console.log('ASSIGNED Title ...', currentTitle);
+        // console.log('ASSIGNED Author ...', currentAuthor);
+        // console.log('ASSIGNED RecommendedBy ...', currentRecommendedBy);
 
         sendCurrentlyReading(currentBookId, currentTitle, currentAuthor, currentRecommendedBy);
     }
