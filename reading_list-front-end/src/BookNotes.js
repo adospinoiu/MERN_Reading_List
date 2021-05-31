@@ -23,14 +23,13 @@ function BookNotes({ currentBook }) {
     const sendNotes = async (e) => {
         e.preventDefault();
 
-        
+        await axios.post('/addBookNotes/new', {
+            bookId = getCurrentlyReadingData.title,
+            notes = notes,
+        })
 
-
-
+        setNotes('');
     }
-
-
-
 
     return (
         <div className="booknotes">
