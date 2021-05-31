@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
     res.status(200).send('Hello World')
 });
 
-// This API-Route is tied to the main App Component. It gets all the data from the database and then sends it down through Reading-Component to the Future-Reading-SubComponent to display the list
+// This API-Route is tied to the main App Component. It gets all the data from the database and then sends it down through ReadingList-Component to the Future-Reading-SubComponent to display the list. This is specifically tied to the 'addnewbooks-collection'
 app.get('/addNewBook/added', (req, res) => {
     AddNewBook.find((err, data) => {
         if (err) {
@@ -43,7 +43,7 @@ app.get('/addNewBook/added', (req, res) => {
     })
 })
 
-// This API-Route is tied to the 'Add-to-List Button' in the Reading Component. It sends to the database any new books added to by the user
+// This API-Route is tied to the 'Add-to-List Button' in the ReadingList-Component. It sends to the database any new books added to by the user. This is specifically tied to the 'addnewbooks-collection'
 app.post('/addNewBook/new', (req, res) => {
     const newBook = req.body
 
@@ -56,10 +56,24 @@ app.post('/addNewBook/new', (req, res) => {
     })
 })
 
+// This API-Route is tied to the main App Component. It gets all the data from the database and then sends it down through BookNotes-Component to the Currently-Reading-SubComponent to display the list. This is specifically tied to the 'addcurrentlyreading-collection'
 app.get('/addCurrentlyReading/current', (req, res) => {
     const currentlyReading = req.body
 
     AddCurrentlyReading.find(currentlyReading, (err, data) => {
+        if (err) {
+            res.status(500).send(err)
+        } else {
+            res.status(200).send(data)
+        }
+    })
+})
+
+// This API-Route is tied to the Future-Reading-List-SubComponent. It takes the clicked-on-data and passes the information to the database to post so the user knows which book is currently being read. This is specificially tied to the addcurrentlyreading-collection'
+app.post('/addCurrentlyReading/new', (req, res) => {
+    const currentlyReading = req.body
+
+    AddCurrentlyReading.create(currentlyReading, (err, data) => {
         if (err) {
             res.status(500).send(err)
         } else {
@@ -68,6 +82,7 @@ app.get('/addCurrentlyReading/current', (req, res) => {
     })
 })
 
+// This API-Route is tied to the BookNotes-Component. It takes the notes entered by the user and passes the information to the database to post so the user can save notes for each specific currently reading book.
 app.post('/addCurrentlyReading/new', (req, res) => {
     const currentlyReading = req.body
 
