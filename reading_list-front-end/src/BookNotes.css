@@ -9,7 +9,7 @@
 /* ############################# */
 
 
-/* Currently Reading Section */
+/* ###### Currently Reading Section ######*/
 .readinglist__currentlyreading {
     padding: 20px;
     overflow: scroll;
@@ -65,8 +65,8 @@
 }
 /* ############################# */
 
-/* ###### Body Section ###### */ 
 
+/* ###### Body Section ###### */ 
 .booknotes__body {
     flex: 1;
     padding: 20px;
@@ -100,6 +100,7 @@
     font-size: xx-small;
 }
 /* ############################# */
+
 
 /* ###### Footer Section ###### */
 .booknotes__footer {

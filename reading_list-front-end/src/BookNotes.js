@@ -8,13 +8,29 @@ import CurrentlyReadingList from './CurrentlyReadingList';
 import SpeakerNotesIcon from '@material-ui/icons/SpeakerNotes';
 import CommentIcon from '@material-ui/icons/Comment';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
+import axios from 'axios';
 
 
 function BookNotes({ currentBook }) {
     console.log('Currently Reading List Passdown ...', currentBook);
 
     const [ getCurrentlyReadingData, setCurrentlyReadingData ] = useState('');
-    console.log('Data FROM Currently Reading Click ...', getCurrentlyReadingData)
+    const [ notes, setNotes ] = useState('');
+
+    console.log('Data FROM Currently Reading Click ...', getCurrentlyReadingData);   
+    console.log('Book notes to POST...', notes);
+
+    const sendNotes = async (e) => {
+        e.preventDefault();
+
+        
+
+
+
+    }
+
+
+
 
     return (
         <div className="booknotes">
@@ -53,9 +69,14 @@ function BookNotes({ currentBook }) {
                 <CommentIcon />
 
                 <form>
-                    <input placeholder="Notes to save" type="text"></input>
+                    <input
+                        value= {notes}
+                        placeholder="Notes to save" 
+                        type="text"
+                        onChange={e => setNotes(e.target.value)}
+                    />
 
-                    <button type="submit">Save</button>
+                    <button onClick={sendNotes} type="submit">Save</button>
                 </form>
             </div>
         </div>
