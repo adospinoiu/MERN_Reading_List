@@ -13,28 +13,31 @@ import BookmarksIcon from '@material-ui/icons/Bookmarks';
 
 
 function BookNotes({ currentBook }) {
-    console.log('Currently Reading List Passdown ...', currentBook);
+    // console.log('Currently Reading List Passdown ...', currentBook);
 
-    const [ getCurrentlyReadingData, setCurrentlyReadingData ] = useState('');
-    const [ notes, setNotes ] = useState('');
+    const [ getCurrentlyReadingData, setCurrentlyReadingData ] = useState("");
+    const [ notes, setNotes ] = useState("");
+  
+    console.log('Book notes to POST...', getCurrentlyReadingData);
 
-    // console.log('Data FROM Currently Reading Click ...', getCurrentlyReadingData);   
-    console.log('Book notes to POST...', notes);
+    // const currentlyReadingBookData = (getCurrentlyReadingData) => {
+    //     let currentlyReadingBookTitle = getCurrentlyReadingData.title;
 
-    const currentlyReadingBookData = (getCurrentlyReadingData) => {
-        let currentlyReadingBookId = getCurrentlyReadingData._id;
+    //     console.log(currentlyReadingBookId)
+    //     sendNotes(currentlyReadingBookTitle)
+    // }
 
-        console.log(currentlyReadingBookId)
-        sendNotes(currentlyReadingBookId)
-    }
+    const sendNotes = async (e) => {
+        e.preventDefault(); 
 
-    const sendNotes = (currentlyReadingBookId, notes) => {
         console.log(notes);
 
-        axios.post('/addBookNotes/new', {
-            _id = currentlyReadingBookId,
-            notes = notes,
+        await axios.post('/addBookNotes/new', {
+            title: getCurrentlyReadingData.title,
+            notes: notes,
         })
+
+        setNotes('');
     }
 
     return (

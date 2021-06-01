@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const addBookNotesSchema = mongoose.Schema({
-    _id: String,
+    title: String,
     notes: String,
 })
 

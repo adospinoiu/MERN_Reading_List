@@ -6,13 +6,7 @@ import './CurrentlyReadingList.css';
 import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
 import CommentIcon from '@material-ui/icons/Comment';
 
-function CurrentlyReadingList( { currentBook, getBookData }) {
-    // console.log('Currently Reading List Passdown ...', currentBook);
-
-    // const Clicked = (currentClickedBook) => {
-    //     console.log('Currently Reading Clicked ...', currentClickedBook);
-    // }
-
+function CurrentlyReadingList({ currentBook, getBookData }) {
     const readingNowBook = currentBook.map((data) => (
         <div 
             key={data._id}
