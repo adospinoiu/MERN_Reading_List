@@ -129,6 +129,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #62 Stuck. It does not like something. When I try to POST the notes typed by the user ... it does not like something in that path. Need to figure it out.
 
+#63 Progress! When the user clicks a book in the Currently-Reading-SubComponent, the title is then displayed on the notes section and the title with the associated note is then POST-Routed when the user hits enter on the note. Yes, progress!
+
 
 
 
