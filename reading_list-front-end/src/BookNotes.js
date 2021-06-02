@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ReadingNotes from './ReadingNotes';
 import axios from './axios';
 import './BookNotes.css';
 
@@ -31,15 +32,15 @@ function BookNotes({ currentBook, notesFromDatabase }) {
         setNotes('');
     }
 
-    const readingNotes = notesFromDatabase.map((notes) => (
-        <div className="booknotes__body">
-            <p className="notes__message">
-                <span className="notes__name">Alex</span>
-                    {notes.notes}
-                <span className="notes__timestamp">{new Date().toUTCString()}</span>
-            </p>
-        </div>
-    ))
+    // const readingNotes = notesFromDatabase.map((notes) => (
+    //     <div className="booknotes__body">
+    //         <p className="notes__message">
+    //             <span className="notes__name">Alex</span>
+    //                 {notes.notes}
+    //             <span className="notes__timestamp">{new Date().toUTCString()}</span>
+    //         </p>
+    //     </div>
+    // ))
 
     return (
         <div className="booknotes">
@@ -65,24 +66,16 @@ function BookNotes({ currentBook, notesFromDatabase }) {
                     {/* <p>Last comment added on</p> */}
                 </div>
             </div>
-
-            ( readingNotes )
             
-            {/* <div className="booknotes__body">
-                {notesFromDatabase.map((notes) => {
-                    <p className="notes__message">
-                    <span className="notes__name">Alex</span>
-                    {notes.notes}
-                    <span className="notes__timestamp">{new Date().toUTCString()}</span>
-                    </p>
-                })} */}
+            <div className="booknotes__body">
+                <ReadingNotes notesFromDatabase={notesFromDatabase}/>
 
                 {/* <p className="notes__message">
                     <span className="notes__name">Alex</span>
                     This is a test message
                     <span className="notes__timestamp">{new Date().toUTCString()}</span>
                 </p> */}
-            {/* </div> */}
+            </div>
 
             <div className="booknotes__footer">
                 <CommentIcon />

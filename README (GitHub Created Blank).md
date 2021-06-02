@@ -137,6 +137,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #66 Entered GET-Call in APP.js and confirmed the data (book-notes) is coming from the database.
 
+#67 It works!!! Had to create another sub-component. But it does render all the notes from the database. Now I just have to only display the notes based on the book clicked.
+
 
 
 
