@@ -12,11 +12,11 @@ import BookmarksIcon from '@material-ui/icons/Bookmarks';
 
 
 
-function BookNotes({ currentBook }) {
+function BookNotes({ currentBook, notesFromDatabase }) {
     const [ getCurrentlyReadingData, setCurrentlyReadingData ] = useState("");
     const [ notes, setNotes ] = useState("");
   
-    console.log('Book notes to POST...', getCurrentlyReadingData);
+    console.log('GET-Call ... NOTES from DATABASE...', notesFromDatabase);
 
     const sendNotes = async (e) => {
         e.preventDefault(); 
@@ -30,6 +30,16 @@ function BookNotes({ currentBook }) {
 
         setNotes('');
     }
+
+    const readingNotes = notesFromDatabase.map((notes) => (
+        <div className="booknotes__body">
+            <p className="notes__message">
+                <span className="notes__name">Alex</span>
+                    {notes.notes}
+                <span className="notes__timestamp">{new Date().toUTCString()}</span>
+            </p>
+        </div>
+    ))
 
     return (
         <div className="booknotes">
@@ -56,13 +66,23 @@ function BookNotes({ currentBook }) {
                 </div>
             </div>
 
-            <div className="booknotes__body">
-                <p className="notes__message">
+            ( readingNotes )
+            
+            {/* <div className="booknotes__body">
+                {notesFromDatabase.map((notes) => {
+                    <p className="notes__message">
+                    <span className="notes__name">Alex</span>
+                    {notes.notes}
+                    <span className="notes__timestamp">{new Date().toUTCString()}</span>
+                    </p>
+                })} */}
+
+                {/* <p className="notes__message">
                     <span className="notes__name">Alex</span>
                     This is a test message
                     <span className="notes__timestamp">{new Date().toUTCString()}</span>
-                </p>
-            </div>
+                </p> */}
+            {/* </div> */}
 
             <div className="booknotes__footer">
                 <CommentIcon />

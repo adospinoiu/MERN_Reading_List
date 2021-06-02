@@ -35,14 +35,16 @@ function App() {
 
   // console.log('GET API FUTURE-READING-LIST-SUB...', newBook);
   // console.log('GET API CURRENTLY-READING-SUB...', currentBook);
-  console.log('GET API BOOK-NOTES ...', notesFromDatabase)
+  // console.log('GET API BOOK-NOTES ...', notesFromDatabase)
 
   return (
     <div className="app">
       <div className="app__body">
         <ReadingList newBook={newBook} />
 
-        <BookNotes currentBook={currentBook} />
+        <BookNotes
+          currentBook={currentBook}
+          notesFromDatabase={notesFromDatabase} />
 
         <ReadBooks />
       </div>

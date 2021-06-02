@@ -135,6 +135,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #65 Entered GET-Route in server.js to fetch the data from the database for the notes the user inputed
 
+#66 Entered GET-Call in APP.js and confirmed the data (book-notes) is coming from the database.
+
 
 
 
