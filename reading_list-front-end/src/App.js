@@ -10,6 +10,7 @@ import ReadingList from './ReadingList';
 function App() {
   const [ newBook, setNewBook ] = useState([]);
   const [ currentBook, setCurrentBook ] = useState([]);
+  const [ notesFromDatabase, setNotesFromDatabase ] = useState([]);
 
   useEffect(() => {
     axios.get('/addNewBook/added')
@@ -25,8 +26,16 @@ function App() {
       })
   }, []);
 
+  useEffect(() => {
+    axios.get('/addBookNotes/notes')
+      .then(response => {
+        setNotesFromDatabase(response.data)
+      })
+  }, []);
+
   // console.log('GET API FUTURE-READING-LIST-SUB...', newBook);
   // console.log('GET API CURRENTLY-READING-SUB...', currentBook);
+  console.log('GET API BOOK-NOTES ...', notesFromDatabase)
 
   return (
     <div className="app">
