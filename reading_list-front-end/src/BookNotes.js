@@ -13,19 +13,10 @@ import BookmarksIcon from '@material-ui/icons/Bookmarks';
 
 
 function BookNotes({ currentBook }) {
-    // console.log('Currently Reading List Passdown ...', currentBook);
-
     const [ getCurrentlyReadingData, setCurrentlyReadingData ] = useState("");
     const [ notes, setNotes ] = useState("");
   
     console.log('Book notes to POST...', getCurrentlyReadingData);
-
-    // const currentlyReadingBookData = (getCurrentlyReadingData) => {
-    //     let currentlyReadingBookTitle = getCurrentlyReadingData.title;
-
-    //     console.log(currentlyReadingBookId)
-    //     sendNotes(currentlyReadingBookTitle)
-    // }
 
     const sendNotes = async (e) => {
         e.preventDefault(); 
@@ -61,7 +52,7 @@ function BookNotes({ currentBook }) {
 
                 <div className="booknotes__headerInfo">
                     <h3>{getCurrentlyReadingData.title}</h3>
-                    <p>Last comment added on</p>
+                    {/* <p>Last comment added on</p> */}
                 </div>
             </div>
 

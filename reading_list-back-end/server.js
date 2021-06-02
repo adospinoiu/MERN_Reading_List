@@ -96,5 +96,18 @@ app.post('/addBookNotes/new', (req, res) => {
     })
 })
 
+// This API-Route is tied to the main App-Component. It is to get all the notes entered on a book-by-book basis by the user. It then passes the information down to the notes-subcomponent to display the information.
+app.get('/addBookNotes/notes', (req, res) => {
+    const bookNotes = req.body
+
+    AddBookNotes.find(bookNotes, (err, data) => {
+        if (err) {
+            res.status(500).send(err)
+        } else {
+            res.status(200).send(data)
+        }
+    })
+})
+
 // Listener
 app.listen(port, () => console.log(`Listening on localhost:${port}`))

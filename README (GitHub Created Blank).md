@@ -131,6 +131,10 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #63 Progress! When the user clicks a book in the Currently-Reading-SubComponent, the title is then displayed on the notes section and the title with the associated note is then POST-Routed when the user hits enter on the note. Yes, progress!
 
+#64 Now, need to do a GET-Request to pull the notes based on the CLICKED-reading-book component. 
+
+#65 Entered GET-Route in server.js to fetch the data from the database for the notes the user inputed
+
 
 
 
