@@ -141,6 +141,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #68 Now, need to figure out how to display only the messages associated with the clicked book. The clicked book is what tells the app which title the notes are associated with ... so going to need to figure out a way to display only the notes associated with the clicked book.
 
+#69 The information does properly flow up and down from child-component to parent-component based on what the user clicks. Just need to display only what the user clicks on.
+
 
 
 

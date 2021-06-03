@@ -32,16 +32,6 @@ function BookNotes({ currentBook, notesFromDatabase }) {
         setNotes('');
     }
 
-    // const readingNotes = notesFromDatabase.map((notes) => (
-    //     <div className="booknotes__body">
-    //         <p className="notes__message">
-    //             <span className="notes__name">Alex</span>
-    //                 {notes.notes}
-    //             <span className="notes__timestamp">{new Date().toUTCString()}</span>
-    //         </p>
-    //     </div>
-    // ))
-
     return (
         <div className="booknotes">
             <div className="readinglist__currentlyreading">
@@ -68,7 +58,9 @@ function BookNotes({ currentBook, notesFromDatabase }) {
             </div>
             
             <div className="booknotes__body">
-                <ReadingNotes notesFromDatabase={notesFromDatabase}/>
+                <ReadingNotes
+                    getCurrentlyReadingData={getCurrentlyReadingData}
+                    notesFromDatabase={notesFromDatabase}/>
             </div>
 
             <div className="booknotes__footer">
