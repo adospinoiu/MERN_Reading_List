@@ -1,12 +1,12 @@
 import React from 'react';
 
-function ReadingNotes({ notesFromDatabase }) {
-    console.log('NOTES from database ...', notesFromDatabase);
+function ReadingNotes({ notesToDisplay }) {
+    console.log('NOTES from database ...', notesToDisplay);
 
-    const readingNotes = notesFromDatabase.map((notes) => (
+    const readingNotes = notesToDisplay.map((notes) => (
         <p className="notes__message">
             <span className="notes__name">Alex</span>
-            {notes.notes}
+            {notes}
             <span className="notes__timestamp">{new Date().toUTCString()}</span>
         </p>
     ))

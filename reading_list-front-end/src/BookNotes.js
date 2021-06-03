@@ -69,7 +69,7 @@ function BookNotes({ currentBook, notesFromDatabase }) {
             
             <div className="booknotes__body">
                 <ReadingNotes
-                    notesFromDatabase={notesFromDatabase}/>
+                    notesToDisplay={notesToDisplay}/>
             </div>
 
             <div className="booknotes__footer">

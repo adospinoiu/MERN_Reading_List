@@ -145,6 +145,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #70 Created a new array that is pushed into with only the messages that need to be displayed. This array will then be passed down so the messages can be displayed
 
+#71 YEEEEEAAAAAAA!!!!! IT WORKS EXACTLY AS INTENDED!!!!! YEEEEEAAAAAA!!!!!
+
 
 
 
