@@ -32,6 +32,16 @@ function BookNotes({ currentBook, notesFromDatabase }) {
         setNotes('');
     }
 
+    let notesToDisplay = [];
+
+    for (let i = 0; i < notesFromDatabase.length; i++) {
+        if (getCurrentlyReadingData.title == notesFromDatabase[i].title) {
+            notesToDisplay.push(notesFromDatabase[i].notes)
+        }
+    }
+
+    console.log(notesToDisplay)
+
     return (
         <div className="booknotes">
             <div className="readinglist__currentlyreading">
@@ -59,7 +69,6 @@ function BookNotes({ currentBook, notesFromDatabase }) {
             
             <div className="booknotes__body">
                 <ReadingNotes
-                    getCurrentlyReadingData={getCurrentlyReadingData}
                     notesFromDatabase={notesFromDatabase}/>
             </div>
 

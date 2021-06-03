@@ -143,6 +143,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #69 The information does properly flow up and down from child-component to parent-component based on what the user clicks. Just need to display only what the user clicks on.
 
+#70 Created a new array that is pushed into with only the messages that need to be displayed. This array will then be passed down so the messages can be displayed
+
 
 
 
