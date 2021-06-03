@@ -69,12 +69,6 @@ function BookNotes({ currentBook, notesFromDatabase }) {
             
             <div className="booknotes__body">
                 <ReadingNotes notesFromDatabase={notesFromDatabase}/>
-
-                {/* <p className="notes__message">
-                    <span className="notes__name">Alex</span>
-                    This is a test message
-                    <span className="notes__timestamp">{new Date().toUTCString()}</span>
-                </p> */}
             </div>
 
             <div className="booknotes__footer">

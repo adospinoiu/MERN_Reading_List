@@ -76,9 +76,7 @@ function ReadingList({ newBook }) {
                     <p>Reading List</p>
                 </div>
 
-                <div 
-                    className="futurereading__list"
-                >
+                <div className="futurereading__list">
                     <FutureReadingList newBook={newBook} />
                 </div>
             </div>

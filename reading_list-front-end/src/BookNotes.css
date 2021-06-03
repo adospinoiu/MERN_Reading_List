@@ -70,7 +70,7 @@
 .booknotes__body {
     flex: 1;
     padding: 20px;
-
+    overflow: scroll;
     align-items: center;
     border-bottom: 1px solid lightgrey;
     background-color: rgb(243, 225, 177);
