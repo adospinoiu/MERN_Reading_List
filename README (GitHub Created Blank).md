@@ -147,6 +147,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #71 YEEEEEAAAAAAA!!!!! IT WORKS EXACTLY AS INTENDED!!!!! YEEEEEAAAAAA!!!!!
 
+#72 Now can start doing some clean-up on the CSS and what not. Have entered almost my entire reading-list in the database. Still have to do a bit of work about the transition of information from main component to main component. And at some point have to work on the last component which will show all the information of "all ready read books".
+
 
 
 
