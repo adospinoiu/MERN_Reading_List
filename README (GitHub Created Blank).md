@@ -149,6 +149,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #72 Now can start doing some clean-up on the CSS and what not. Have entered almost my entire reading-list in the database. Still have to do a bit of work about the transition of information from main component to main component. And at some point have to work on the last component which will show all the information of "all ready read books".
 
+#73 Uploaded all of my reading list to the database. Started including notes on my first reading book.
+
 
 
 

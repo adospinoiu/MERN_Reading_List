@@ -2,14 +2,13 @@ import React from 'react';
 import './FutureReadingList.css';
 import axios from './axios';
 
+// Import Material-Ui Related
 import { IconButton } from '@material-ui/core';
 import NotListedLocationIcon from '@material-ui/icons/NotListedLocation';
 import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
 
 
 function FutureReadingList({ newBook }) {
-    // console.log('Future Reading List Passdown ...', newBook);
-
     const sendCurrentlyReading = (currentBookId, currentTitle, currentAuthor, currentRecommendedBy) => {
         axios.post('/addCurrentlyReading/new', {
             _id: currentBookId,
@@ -26,11 +25,6 @@ function FutureReadingList({ newBook }) {
         let currentTitle = currentBook[0].title;
         let currentAuthor = currentBook[0].author;
         let currentRecommendedBy = currentBook[0].recommendedBy;
-        
-        // console.log('ASSIGNED BookID ...', currentBookId);
-        // console.log('ASSIGNED Title ...', currentTitle);
-        // console.log('ASSIGNED Author ...', currentAuthor);
-        // console.log('ASSIGNED RecommendedBy ...', currentRecommendedBy);
 
         sendCurrentlyReading(currentBookId, currentTitle, currentAuthor, currentRecommendedBy);
     }
