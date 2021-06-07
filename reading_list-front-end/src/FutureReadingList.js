@@ -17,7 +17,7 @@ function FutureReadingList({ newBook }) {
             recommendedBy: currentRecommendedBy,
         })
     }
-    
+
     const Clicked = (currentBook) => {
         console.log('Clicked ...', currentBook);
 
@@ -28,17 +28,17 @@ function FutureReadingList({ newBook }) {
 
         sendCurrentlyReading(currentBookId, currentTitle, currentAuthor, currentRecommendedBy);
     }
-    
+
     const futureBook = newBook.map((data) => (
-        <div 
-            key={data._id} 
+        <div
+            key={data._id}
             className="futureReadingList"
             onClick={() => Clicked([data])}
         >
-            <NotListedLocationIcon />
+            <div className="lighBulbIcon"><NotListedLocationIcon /></div>
 
-            <div 
-                key={data._id}             
+            <div
+                key={data._id}
                 className="futureReadingList__info"
             >
                 <h4>{data.title}</h4>
@@ -46,14 +46,12 @@ function FutureReadingList({ newBook }) {
                 {/* <p>{data.recommendedBy}</p> */}
             </div>
 
-            <IconButton>
-                <ChromeReaderModeIcon />
-            </IconButton>
+            <div className="openBookIcon"><IconButton><ChromeReaderModeIcon /></IconButton></div>
         </div>
     ))
 
     return (
-        ( futureBook )
+        (futureBook)
     )
 }
 

@@ -50,8 +50,6 @@
     padding: 20px;
     flex: 1;
     overflow: scroll;
-
-    /* border-bottom: 1px solid lightgrey; */
     border: 2px solid red;
     background-color: rgb(240, 218, 94);
 }
