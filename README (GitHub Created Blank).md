@@ -151,6 +151,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #73 Uploaded all of my reading list to the database. Started including notes on my first reading book.
 
+#74 Want to implement a search function so that I can search through my reading list rather than just scroll through it.
+
 
 
 
