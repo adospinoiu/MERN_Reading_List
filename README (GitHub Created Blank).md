@@ -153,6 +153,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #74 Want to implement a search function so that I can search through my reading list rather than just scroll through it.
 
+#75 Decided to try to get a re-design of the page. However, will use a UI Designer so I don't have to learn all that stuff.
+
 
 
 
