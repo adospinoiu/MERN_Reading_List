@@ -43,7 +43,6 @@ function FutureReadingList({ newBook }) {
             >
                 <h4>{data.title}</h4>
                 <p>{data.author}</p>
-                {/* <p>{data.recommendedBy}</p> */}
             </div>
 
             <div className="openBookIcon"><IconButton><ChromeReaderModeIcon /></IconButton></div>

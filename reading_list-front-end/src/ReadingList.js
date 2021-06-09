@@ -17,6 +17,7 @@ function ReadingList({ newBook }) {
     const [ title, setTitle ] = useState("");
     const [ author, setAuthor ] = useState("");
     const [ recommended, setRecommended ] = useState("");
+    const [ search, setSearch ] = useState("");
 
     const sendNewBook = async (e) => {
         e.preventDefault();
@@ -75,6 +76,8 @@ function ReadingList({ newBook }) {
                 </div>
 
                 <div className="futurereading__list">
+                    <input type="text" placeholder="Search"></input>
+
                     <FutureReadingList newBook={newBook} />
                 </div>
             </div>

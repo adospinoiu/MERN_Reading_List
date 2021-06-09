@@ -155,6 +155,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #75 Decided to try to get a re-design of the page. However, will use a UI Designer so I don't have to learn all that stuff.
 
+#76 Implemented a Search-Function to search the different books in the future-reading-list sub-component
+
 
 
 
