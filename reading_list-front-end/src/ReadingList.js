@@ -76,8 +76,13 @@ function ReadingList({ newBook }) {
                 </div>
 
                 <div className="futurereading__list">
-                    <input type="text" placeholder="Search"></input>
-
+                    {search}
+                    <input 
+                        type="text" 
+                        placeholder="Search"
+                        onChange={e => setSearch(e.target.value)} 
+                    />
+                    
                     <FutureReadingList newBook={newBook} />
                 </div>
             </div>
