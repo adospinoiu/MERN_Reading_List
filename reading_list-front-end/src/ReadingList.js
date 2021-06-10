@@ -76,7 +76,6 @@ function ReadingList({ newBook }) {
                 </div>
 
                 <div className="futurereading__list">
-                    {searchReadingList}
                     <input 
                         type="text" 
                         placeholder="Search"

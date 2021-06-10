@@ -159,6 +159,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #77 Search functionality works!!! Going to try to modify to use useState.
 
+#78 It WORKS!!! I now have the ability to search through my future-reading-list sub-component
+
 
 
 

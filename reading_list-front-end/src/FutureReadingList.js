@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './FutureReadingList.css';
 import axios from './axios';
 
@@ -9,8 +9,16 @@ import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
 
 
 function FutureReadingList({ newBook, searchReadingList }) {
-    const [ searchForBook, setSearchForBook ] = useState([]);
-    
+    const [searchForBook, setSearchForBook] = useState([]);
+
+    useEffect(() => {
+        setSearchForBook(
+            newBook.filter(book => {
+                return book.title.toLowerCase().includes(searchReadingList.toLowerCase())
+            })
+        )
+    }, [searchReadingList, newBook])
+
     const sendCurrentlyReading = (currentBookId, currentTitle, currentAuthor, currentRecommendedBy) => {
         axios.post('/addCurrentlyReading/new', {
             _id: currentBookId,
@@ -30,12 +38,6 @@ function FutureReadingList({ newBook, searchReadingList }) {
 
         sendCurrentlyReading(currentBookId, currentTitle, currentAuthor, currentRecommendedBy);
     }
-
-    
-
-    const searchForBook = newBook.filter( book => {
-        return book.title.toLowerCase().includes( searchReadingList.toLowerCase() )
-    })
 
     const futureBook = searchForBook.map((data) => (
         <div
