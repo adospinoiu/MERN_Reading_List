@@ -157,6 +157,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #76 Implemented a Search-Function to search the different books in the future-reading-list sub-component
 
+#77 Search functionality works!!! Going to try to modify to use useState.
+
 
 
 

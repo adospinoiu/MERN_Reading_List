@@ -17,7 +17,7 @@ function ReadingList({ newBook }) {
     const [ title, setTitle ] = useState("");
     const [ author, setAuthor ] = useState("");
     const [ recommended, setRecommended ] = useState("");
-    const [ search, setSearch ] = useState("");
+    const [ searchReadingList, setSearchReadingList ] = useState("");
 
     const sendNewBook = async (e) => {
         e.preventDefault();
@@ -76,14 +76,14 @@ function ReadingList({ newBook }) {
                 </div>
 
                 <div className="futurereading__list">
-                    {search}
+                    {searchReadingList}
                     <input 
                         type="text" 
                         placeholder="Search"
-                        onChange={e => setSearch(e.target.value)} 
+                        onChange={e => setSearchReadingList(e.target.value)} 
                     />
                     
-                    <FutureReadingList newBook={newBook} />
+                    <FutureReadingList newBook={newBook} searchReadingList={searchReadingList} />
                 </div>
             </div>
         </div>

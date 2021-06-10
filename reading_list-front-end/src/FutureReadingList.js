@@ -8,7 +8,9 @@ import NotListedLocationIcon from '@material-ui/icons/NotListedLocation';
 import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
 
 
-function FutureReadingList({ newBook }) {
+function FutureReadingList({ newBook, searchReadingList }) {
+    const [ searchForBook, setSearchForBook ] = useState([]);
+    
     const sendCurrentlyReading = (currentBookId, currentTitle, currentAuthor, currentRecommendedBy) => {
         axios.post('/addCurrentlyReading/new', {
             _id: currentBookId,
@@ -29,7 +31,13 @@ function FutureReadingList({ newBook }) {
         sendCurrentlyReading(currentBookId, currentTitle, currentAuthor, currentRecommendedBy);
     }
 
-    const futureBook = newBook.map((data) => (
+    
+
+    const searchForBook = newBook.filter( book => {
+        return book.title.toLowerCase().includes( searchReadingList.toLowerCase() )
+    })
+
+    const futureBook = searchForBook.map((data) => (
         <div
             key={data._id}
             className="futureReadingList"
