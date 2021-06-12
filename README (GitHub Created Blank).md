@@ -161,6 +161,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #78 It WORKS!!! I now have the ability to search through my future-reading-list sub-component
 
+#79 Need to work on the last component now that has all the 'read books'
+
 
 
 
