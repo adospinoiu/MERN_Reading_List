@@ -163,6 +163,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #79 Need to work on the last component now that has all the 'read books'
 
+#80 Showed off the application to a new user. The user immediately wants to start using it; even though it has very basic functionality. So first, I have to figure out how to have more than one user, and the data be specific to them. Then, I will have to work a little more on the graphical user interface.
+
 
 
 

@@ -15,7 +15,7 @@
     overflow: scroll;
 
     /* border-bottom: 1px solid lightgrey; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: rgb(240, 218, 94);
 }
 
@@ -28,13 +28,13 @@
     justify-content: space-between;
     font-weight: bold;
     padding: 10px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: rgb(243, 225, 177);
 }
 
 .currentlyreading__list {
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: rgb(243, 225, 177);
 }
 /* ############################# */
@@ -47,7 +47,7 @@
     align-items: center;
     border-bottom: 1px solid lightgrey;
     background-color: rgb(205, 236, 248);
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .booknotes__headerInfo {
@@ -75,7 +75,7 @@
     border-bottom: 1px solid lightgrey;
     background-color: rgb(243, 225, 177);
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .booknotes__body::-webkit-scrollbar {
@@ -116,7 +116,7 @@
     border-top: 1px solid lightgrey;
     background-color: rgb(189, 228, 243);
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .booknotes__footer > form {

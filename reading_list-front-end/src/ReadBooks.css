@@ -7,7 +7,7 @@
 .alreadyReadBooks {
     flex: 1;
     padding: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: rgb(240, 218, 94);
 }
 
@@ -16,12 +16,12 @@
     justify-content: space-between;
     font-weight: bold;
     padding: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: rgb(243, 225, 177);
 }
 
 .alreadyReadBooks__list {
     flex: 1;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: rgb(243, 225, 177);
 }
