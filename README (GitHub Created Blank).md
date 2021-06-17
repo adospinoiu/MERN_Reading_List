@@ -167,6 +167,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #81 Progressing well on the Data Analytics side-project. 
 
+#82 No update yet. Still progressing.
+
 
 
 
