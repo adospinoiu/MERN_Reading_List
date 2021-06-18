@@ -169,6 +169,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #82 No update yet. Still progressing. I need to figure out how to make the app be able to be used by more than one person.
 
+#83 Need to host the backend on Heroku
+
 
 
 
