@@ -171,6 +171,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #83 Need to host the backend on Heroku
 
+#84 Need to host the front-end on firebase
+
 
 
 
