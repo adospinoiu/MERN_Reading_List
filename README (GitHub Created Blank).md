@@ -173,7 +173,7 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #84 Need to host the front-end on firebase
 
-#85 No progress on hosting today
+#85 No progress on hosting today. Neither today. And I also skipped a day in committs.
 
 
 
