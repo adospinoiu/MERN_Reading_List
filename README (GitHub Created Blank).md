@@ -175,6 +175,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #85 No progress on hosting today. Neither today. And I also skipped a day in committs.
 
+#86 There appears to be a new REACT 18. Took a look at some of the changes being advertised.
+
 
 
 
