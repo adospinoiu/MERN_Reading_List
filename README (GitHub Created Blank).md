@@ -177,6 +177,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #86 There appears to be a new REACT 18. Took a look at some of the changes being advertised.
 
+#87 Looking into the new REACT 18 to see what the differences are.
+
 
 
 
