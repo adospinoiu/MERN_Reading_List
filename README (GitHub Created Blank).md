@@ -183,6 +183,10 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #89 Going to try to host the back-end tomorrow on Heroku
 
+#90 Deploying the back-end to Heroku. Followed THE STEPS:
+1) set-up the new application on Heroku DASHBOARD
+2) run the commands (in the terminal) that Heroku Dashboard indicates
+
 
 
 
