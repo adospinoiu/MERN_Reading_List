@@ -181,6 +181,8 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #88 Trying to figure out how to host the back-end on Heroku and the front-end on FireBase without displaying my log-in credentials
 
+#89 Going to try to host the back-end tomorrow on Heroku
+
 
 
 
