@@ -186,6 +186,10 @@ $48 There is something going on with the secondary POST that is executed from th
 #90 Deploying the back-end to Heroku. Followed THE STEPS:
 1) set-up the new application on Heroku DASHBOARD
 2) run the commands (in the terminal) that Heroku Dashboard indicates
+    - 'heroku login' to login in through the CLI
+    - 'git init' to create a git repo on the back-end folder
+    - 'heroku git:remote -a mern-whatsapp-backend-ad' to link the git repo you created with the app on Heroku Dashboard
+    - follow the three steps to add, commit, and push
 
 
 
