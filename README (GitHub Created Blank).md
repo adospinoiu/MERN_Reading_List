@@ -202,5 +202,9 @@ $48 There is something going on with the secondary POST that is executed from th
 2) run the commands (in the terminal: IN THE FRONT-END FOLDER)
     - 'firebase login' to login in through the CLI
 
-    
+#94 On the front-end run 'firebase init' to start the deploy process on firebase. Go through all the prompts
+    - choose Hosting
+    - for the public directory question MAKE SURE you indicate 'build'
+    - CRITICAL: 'yes' for single-page app question
 
+#95 On the front-end run 'npm run build' to build the production-version of the project. This is the folder/version that will be hosted live on the internet
