@@ -195,5 +195,5 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #91 Make sure to update the URL the axios called is made from (i.e. on the front-end). Update the URL to the URL indicated on the Heroku app where your app is deployed (i.e. the domains name)
 
-
+#92 On the front-end install firebase with 'npm i firebase-tools' in the terminal
 
