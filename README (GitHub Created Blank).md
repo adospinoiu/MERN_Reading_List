@@ -208,3 +208,7 @@ $48 There is something going on with the secondary POST that is executed from th
     - CRITICAL: 'yes' for single-page app question
 
 #95 On the front-end run 'npm run build' to build the production-version of the project. This is the folder/version that will be hosted live on the internet
+
+#96 On the front-end run 'firebase deploy' to deploy the front-end on firebase. Then go to the firebase dashboard; under 'hosting' check the domain name and click the link to see the app live
+
+#97 IT'S ALIVE!!! IT'S DEPLOYED AND IT WORKS!!!
