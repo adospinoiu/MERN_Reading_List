@@ -197,7 +197,7 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #92 On the front-end install firebase with 'npm i firebase-tools' in the terminal
 
-#93 Deploy the front-end to Heroku. Follow THE STEPS:
+#93 Deploy the front-end to Firebase. Follow THE STEPS:
 1) set-up the new application on FireBase DASHBOARD
 2) run the commands (in the terminal: IN THE FRONT-END FOLDER)
     - 'firebase login' to login in through the CLI

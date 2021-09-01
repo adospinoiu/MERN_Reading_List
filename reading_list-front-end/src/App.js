@@ -33,6 +33,26 @@ function App() {
       })
   }, []);
 
+  //Code for Pusher. (To display messages without having to re-load the webpage)
+  useEffect(() => {
+    const pusher = new Pusher('d7b5fb7d55c650625560', {
+      cluster: 'us3'
+    });
+
+    const channel = pusher.subscribe('messages');
+    channel.bind('inserted', (newMessage) => {
+      setMessages([...messages, newMessage])
+    });
+
+    return () => {
+      channel.unbind_all();
+      channel.unsubscribe();
+    };
+
+  }, [messages])
+
+  console.log(messages)
+
   return (
     <div className="app">
       <div className="app__body">
