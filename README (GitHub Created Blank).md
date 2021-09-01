@@ -212,3 +212,10 @@ $48 There is something going on with the secondary POST that is executed from th
 #96 On the front-end run 'firebase deploy' to deploy the front-end on firebase. Then go to the firebase dashboard; under 'hosting' check the domain name and click the link to see the app live
 
 #97 IT'S ALIVE!!! IT'S DEPLOYED AND IT WORKS!!!
+
+
+### REV 1.1 (Started Working on it 9/1/2021) ###
+
+#1 Installed Pusher on the front-end (by mistake) and also installed it on the back-end (the correct place to install it)
+    - front-end (npm install pusher-js)
+    - back-end (npm install pusher)
