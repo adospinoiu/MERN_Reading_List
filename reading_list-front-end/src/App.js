@@ -1,5 +1,6 @@
 import axios from './axios';
 import React, { useState, useEffect } from 'react';
+import Pusher from 'pusher-js';
 import './App.css';
 
 // Import Components

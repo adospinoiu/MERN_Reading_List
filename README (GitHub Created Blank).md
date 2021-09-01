@@ -219,3 +219,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #1 Installed Pusher on the front-end (by mistake) and also installed it on the back-end (the correct place to install it)
     - front-end (npm install pusher-js)
     - back-end (npm install pusher)
+
+#2 After installing Pusher on the front-end and back-end ... DON'T FORGET ... to add the import (at the top) in server.js file (back-end) and app.js file (front-end)
