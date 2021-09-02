@@ -34,7 +34,7 @@ function App() {
       })
   }, []);
 
-  //Code for Pusher. (To display messages without having to re-load the webpage)
+  //Code for Pusher. (For Adding New Book to Reading List)
   useEffect(() => {
     const pusher = new Pusher('d7b5fb7d55c650625560', {
       cluster: 'us3'
@@ -53,6 +53,27 @@ function App() {
   }, [newBook])
 
   console.log(newBook)
+
+  //Code for Pusher. (For add New Note to Book Notes Section)
+  useEffect(() => {
+    const pusher = new Pusher('d7b5fb7d55c650625560', {
+      cluster: 'us3'
+    });
+
+    const channel = pusher.subscribe('newBookNotesAdded');
+    channel.bind('inserted', (newBookNotesAdded) => {
+      setNotesFromDatabase([...notesFromDatabase, newBookNotesAdded])
+    });
+
+    return () => {
+      channel.unbind_all();
+      channel.unsubscribe();
+    };
+
+  }, [notesFromDatabase])
+
+  console.log(notesFromDatabase)
+
 
   return (
     <div className="app">
