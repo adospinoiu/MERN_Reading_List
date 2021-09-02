@@ -29,6 +29,38 @@ mongoose.connect(connection_url, {
     useUnifiedTopology: true
 })
 
+const pusher = new Pusher({
+    appId: "1188685",
+    key: "d7b5fb7d55c650625560",
+    secret: "37d1cd9d91f0cee4cffe",
+    cluster: "us3",
+    useTLS: true
+});
+
+const db = mongoose.connection;
+
+db.once('open', () => {
+    console.log("DB Connected");
+
+    const msgCollection = db.collection('addNewBook');
+    const changeStream = msgCollection.watch();
+
+    changeStream.on('change', (change) => {
+        console.log('A change occured:', change);
+
+        if (change.operationType === 'insert') {
+            const newBookDetails = change.fullDocument;
+            pusher.trigger('newBookAdded', 'inserted', {
+                title: newBookDetails.title,
+                author: newBookDetails.author,
+                recommendedBy: newBookDetails.recommendedBy,
+            });
+        } else {
+            console.log('Error triggering Pusher');
+        }
+    })
+})
+
 // API Routes
 app.get('/', (req, res) => {
     res.status(200).send('Hello World')

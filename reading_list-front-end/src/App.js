@@ -40,9 +40,9 @@ function App() {
       cluster: 'us3'
     });
 
-    const channel = pusher.subscribe('messages');
-    channel.bind('inserted', (newMessage) => {
-      setMessages([...messages, newMessage])
+    const channel = pusher.subscribe('newBookAdded');
+    channel.bind('inserted', (newBookAdded) => {
+      setNewBook([...newBook, newBookAdded])
     });
 
     return () => {
@@ -50,9 +50,9 @@ function App() {
       channel.unsubscribe();
     };
 
-  }, [messages])
+  }, [newBook])
 
-  console.log(messages)
+  console.log(newBook)
 
   return (
     <div className="app">
