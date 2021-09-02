@@ -61,6 +61,27 @@ db.once('open', () => {
     })
 })
 
+db.once('open', () => {
+    console.log("DB Connected");
+
+    const msgCollection = db.collection('addbooknotes');
+    const changeStream = msgCollection.watch();
+
+    changeStream.on('change', (change) => {
+        console.log('A change occured:', change);
+
+        if (change.operationType === 'insert') {
+            const newBookNotes = change.fullDocument;
+            pusher.trigger('newBookNotesAdded', 'inserted', {
+                title: newBookNotes.title,
+                notes: newBookNotes.notes,
+            });
+        } else {
+            console.log('Error triggering Pusher');
+        }
+    })
+})
+
 // API Routes
 app.get('/', (req, res) => {
     res.status(200).send('Hello World')
