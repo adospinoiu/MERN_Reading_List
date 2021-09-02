@@ -42,7 +42,7 @@ const db = mongoose.connection;
 db.once('open', () => {
     console.log("DB Connected");
 
-    const msgCollection = db.collection('addNewBook');
+    const msgCollection = db.collection('addnewbooks');
     const changeStream = msgCollection.watch();
 
     changeStream.on('change', (change) => {
