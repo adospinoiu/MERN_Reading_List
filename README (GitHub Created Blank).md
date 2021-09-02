@@ -226,3 +226,4 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #4 Corrected the Pusher-Code on the back-end. IT WORKS NOW. Adding a new book to the Reading-List does push the addition to the front-end without re-rendering the whole code.
 
+#5 Added Pusher-Code for book-notes section so that component updates without re-rendering also when a new note is add.
