@@ -231,3 +231,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #6 Going to re-desing the U.I. after learning some U.I. Basics.
 
 #7 Need to push the new back-end and front-end to heroku and firebase respectively
+
+#8 REV 1.1 Is COMPLETE. Added Pusher-Code so that I don't need to reload the page to see the books being added to the reading list, or the notes being added while reading a book.
