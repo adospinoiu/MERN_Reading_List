@@ -228,4 +228,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #5 Added Pusher-Code for book-notes section so that component updates without re-rendering also when a new note is add.
 
-#6 Going to re-desing the U.I. after learning some U.I. Basics
+#6 Going to re-desing the U.I. after learning some U.I. Basics.
+
+#7 Need to push the new back-end and front-end to heroku and firebase respectively
