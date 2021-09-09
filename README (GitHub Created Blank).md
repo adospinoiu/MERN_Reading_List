@@ -237,3 +237,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #9 Pushed the updated code. It is now live on the internet.
 
 #10 Have started reviewing some UX-Code to make the UI better.
+
+#11 Thinking about using FIGMA someway to make the UI better.
