@@ -239,3 +239,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #10 Have started reviewing some UX-Code to make the UI better.
 
 #11 Thinking about using FIGMA someway to make the UI better.
+
+#12 Learning about FIGMA on YouTube and thinking about starting Google UX Cert.
