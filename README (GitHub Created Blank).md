@@ -241,3 +241,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #11 Thinking about using FIGMA someway to make the UI better.
 
 #12 Learning about FIGMA on YouTube and thinking about starting Google UX Cert.
+
+#13 Going to try make some descent progress tomorrow on the APP.
