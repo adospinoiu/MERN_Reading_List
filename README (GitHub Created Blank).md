@@ -245,3 +245,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #13 Going to try make some descent progress tomorrow on the APP.
 
 #14 Unfortunately, no progress today. Woke up too late and did not do much coding.
+
+#15 Will sign-up for the UX Google Class tomorrow.
