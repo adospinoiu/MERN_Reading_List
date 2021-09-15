@@ -249,3 +249,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #15 Will sign-up for the UX Google Class tomorrow.
 
 #16 Joined the Google UX Class! Started it yesterday to be able to build a better UI for the app.
+
+#17 In the first week. Of the first class. There are a total of 7-classes.
