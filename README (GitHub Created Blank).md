@@ -255,3 +255,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #18 Power supply died in computer (desktop). Bought a new one and waiting for it to be delivered.
     
 #19 Soccer practice started today. Power supply ordered and waiting on it.
+
+#20 Moving right along in the UX-Class. Already on Week 2 of the First Class.
