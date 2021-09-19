@@ -257,3 +257,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #19 Soccer practice started today. Power supply ordered and waiting on it.
 
 #20 Moving right along in the UX-Class. Already on Week 2 of the First Class.
+    
+#21 Went up to Phoenix for the weekend. Still making head-way on the UX-Class.
