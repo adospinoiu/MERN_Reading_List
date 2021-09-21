@@ -261,3 +261,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #21 Went up to Phoenix for the weekend. Still making head-way on the UX-Class.
 
 #22 Got a new audio-book from WSJ+. Making progress in the class.
+
+#23 Almost done with the first class which was a 4-week class.
