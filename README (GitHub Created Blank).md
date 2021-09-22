@@ -263,3 +263,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #22 Got a new audio-book from WSJ+. Making progress in the class.
 
 #23 Almost done with the first class which was a 4-week class.
+
+#24 Going to wrap up the first class (4-weeks) tomorrow.
