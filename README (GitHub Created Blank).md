@@ -265,3 +265,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #23 Almost done with the first class which was a 4-week class.
 
 #24 Going to wrap up the first class (4-weeks) tomorrow.
+
+#25 Finished First-Class this morning. Moved on to Second-Class. It is a 5-week long class.
