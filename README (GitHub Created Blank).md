@@ -273,3 +273,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #27 Finished the 1st-week of the Second-Class. Now on the 2nd-week.
 
 #28 Have to do some sort of assignment that will be peer-reviewed. 
+
+#29 Made some progress, but not as much as would have liked this weekend.
