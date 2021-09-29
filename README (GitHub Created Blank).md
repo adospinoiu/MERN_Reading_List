@@ -277,3 +277,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #29 Made some progress, but not as much as would have liked this weekend.
 
 #30 Finished Week-2 of the Second-Class. Now on to Week-3.
+
+#31 Well on to the Week-3 of the Second-Class. Going to try to finish it tomorrow.
