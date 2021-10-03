@@ -285,3 +285,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #33 Going to finish the peer-reviewed hw tomorrow.
 
 #34 This is a trial GIT commit. Watching a video on YouTube.
+
+#35 On week-5 of the 2nd-class. This is the last week of this class.
