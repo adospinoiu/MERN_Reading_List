@@ -290,4 +290,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #36 Going to try to finish the 5th-week tomorrow.
 
-#36 On the final test of the 5th-week of the Second-Class
+#36 On the final test of the 5th-week of the Second-Class.
+
+#37 Finished the Second-Class. Moved on to the Third-Class; one the first-week now.
