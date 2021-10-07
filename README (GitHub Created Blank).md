@@ -293,3 +293,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #36 On the final test of the 5th-week of the Second-Class.
 
 #37 Finished the Second-Class. Moved on to the Third-Class; one the first-week now.
+
+#38 Started the Third-Class; on the first-week of the third-class.
