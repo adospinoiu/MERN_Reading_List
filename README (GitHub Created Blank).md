@@ -297,3 +297,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #38 Started the Third-Class; on the first-week of the third-class.
 
 #39 Making slow progress on the Third-Class. Wrapped up some other work yesterday. Didn't make as much progress on class as wanted.
+
+#40 Going to continue on the Third-Class
