@@ -301,3 +301,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #40 Going to continue on the Third-Class.
 
 #41 On vacation for the next few days. Don't really know how much coding will happen.
+
+#42 Didn't do much coding. Was out all day today ... vacation
