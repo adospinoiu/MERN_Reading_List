@@ -303,3 +303,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #41 On vacation for the next few days. Don't really know how much coding will happen.
 
 #42 Didn't do much coding. Was out all day today ... vacation
+    
+#43 Last day of vacation. Going home tomorrow. Back to coding the next day.
