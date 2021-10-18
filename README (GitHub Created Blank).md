@@ -310,4 +310,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #45 Resumed the UX/Coding progress. Got to make sure make up the time.
 
-$46 Making progress again on the UX/Coding Class.
+#46 Making progress again on the UX/Coding Class.
+    
+#47 Have gotten into Figma and digital wire-frames.
