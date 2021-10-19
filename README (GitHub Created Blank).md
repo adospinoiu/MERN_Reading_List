@@ -313,3 +313,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #46 Making progress again on the UX/Coding Class.
     
 #47 Have gotten into Figma and digital wire-frames.
+
+#48 Making progress on the Third-Week of the Third-Class of Seven Total.
