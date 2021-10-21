@@ -316,4 +316,4 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #48 Making progress on the Third-Week of the Third-Class of Seven Total.
 
-#49 Almost done with the Third-Week of the Third-Class of Seven.
+#49 Almost done with the Third-Week of the Third-Class of Seven. Going to wrap it up tomorrow morning.
