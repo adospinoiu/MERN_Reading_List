@@ -327,3 +327,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #53 Finished the Third-Class. Moved on to the Fourth-Class.
 
 #54 Started the Fourth-Class. There are three more classes after this one.
+
+#55 Well on my way in the Fourth-Class. Working through my first-week.
