@@ -333,3 +333,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #56 Almost done with the first-week. Hoping to finish tomorrow.
 
 #57 Didn't get anything done today on the class. Nor today either. Have to move along a little faster.
+
+#58 Moving right along in the Fourth-Class.
