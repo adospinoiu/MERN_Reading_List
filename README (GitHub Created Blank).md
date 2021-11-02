@@ -334,4 +334,4 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #57 Didn't get anything done today on the class. Nor today either. Have to move along a little faster.
 
-#58 Moving right along in the Fourth-Class.
+#58 Moving right along in the Fourth-Class. Have moved on the the next weeks to try to get the videos out of the way.
