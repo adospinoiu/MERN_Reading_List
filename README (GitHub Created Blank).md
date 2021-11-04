@@ -337,3 +337,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #58 Moving right along in the Fourth-Class. Have moved on the the next weeks to try to get the videos out of the way.
 
 #59 Done with all the vidoes. Now need to do all the assignments. 
+
+#60 Going to try and wrap up all the assignments from Fourth-Class tomorrow.
