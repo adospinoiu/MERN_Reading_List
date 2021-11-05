@@ -339,3 +339,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #59 Done with all the vidoes. Now need to do all the assignments. 
 
 #60 Going to try and wrap up all the assignments from Fourth-Class tomorrow.
+
+#61 Need to re-work the last assignment.
