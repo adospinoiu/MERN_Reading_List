@@ -340,4 +340,4 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #60 Going to try and wrap up all the assignments from Fourth-Class tomorrow.
 
-#61 Need to re-work the last assignment.
+#61 Need to re-work the last assignment. Passed the Second-Week. Need to pass Third-Week and Fourth-Week of the Fourth-Class.
