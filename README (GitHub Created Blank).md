@@ -351,3 +351,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #65 Passed the Fourth-Class. Now on the Fifth-Class .. which has six-weeks.
 
 #66 Started the Fifth-Class. Moving right along in week-one.
+
+#67 Making progress. Almost done with first-week of the Fifth-Class.
