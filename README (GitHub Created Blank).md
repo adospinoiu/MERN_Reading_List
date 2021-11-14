@@ -355,3 +355,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #67 Making progress. Almost done with first-week of the Fifth-Class.
 
 #68 Wrapping up the first-week tomorrow.
+
+#69 Decided to do all the videos and quizes in all the weeks before finishing the peer-reviewed assignements in each week.
