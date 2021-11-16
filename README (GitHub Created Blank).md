@@ -358,4 +358,4 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #69 Decided to do all the videos and quizes in all the weeks before finishing the peer-reviewed assignements in each week.
 
-#70 Finished Week-2; moved on to Week-3.
+#70 Finished Week-2; moved on to Week-3. Moving from week to week to finish all the videos.
