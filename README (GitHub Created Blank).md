@@ -365,3 +365,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #72 Moved on to Week-4; which does not have an assignment. Week 1, 2 and 5, 6 have an assignment.
 
 #73 Moved on to Week-5 to wrap up all the videos. Still working on the 5th week.
+
+#74 Will try to finish up the HW for Week-1 and Week-2 tomorrow.
