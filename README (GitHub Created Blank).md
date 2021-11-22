@@ -366,4 +366,4 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #73 Moved on to Week-5 to wrap up all the videos. Still working on the 5th week.
 
-#74 Will try to finish up the HW for Week-1 and Week-2 tomorrow.
+#74 Will try to finish up the HW for Week-1 and Week-2 tomorrow. Made some progress today on the HW for the Week-1
