@@ -369,3 +369,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #74 Will try to finish up the HW for Week-1 and Week-2 tomorrow. Made some progress today on the HW for the Week-1.
 
 #75 Finished the first two pages that need to be submitted. Finished almost the entire first half of the app. Will submit tomorrow morning.
+
+#76 Moved on to Week-5 and Week-6.
