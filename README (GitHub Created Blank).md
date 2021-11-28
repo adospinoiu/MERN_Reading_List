@@ -371,3 +371,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #75 Finished the first two pages that need to be submitted. Finished almost the entire first half of the app. Will submit tomorrow morning.
 
 #76 Moved on to Week-5 and Week-6.
+
+#77 Started working on the APP to make it better.
