@@ -375,3 +375,7 @@ $48 There is something going on with the secondary POST that is executed from th
 #77 Started working on the APP to make it better.
     
 #78 Trying to figure out how to orient (in the future-reading-list-sub) the <divs> the way I need them.
+
+#79 Still trying to figure out how to orient the divs.
+
+

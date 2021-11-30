@@ -43,7 +43,7 @@ function FutureReadingList({ newBook, searchReadingList }) {
         <div
             key={data._id}
             className="futureReadingList"
-            onClick={() => Clicked([data])}
+            // onClick={() => Clicked([data])}
         >
             <div className="lightBulbIcon"><NotListedLocationIcon /></div>
 
@@ -55,7 +55,12 @@ function FutureReadingList({ newBook, searchReadingList }) {
                 <p>{data.author}</p>
             </div>
 
-            <div className="openBookIcon"><IconButton><ChromeReaderModeIcon /></IconButton></div>
+            <div 
+                className="openBookIcon"
+                onClick={() => Clicked([data])}
+            >
+                <IconButton><ChromeReaderModeIcon /></IconButton>
+            </div>
         </div>
     ))
 
