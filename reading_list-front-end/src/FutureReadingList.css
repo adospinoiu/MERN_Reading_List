@@ -10,8 +10,9 @@
     background-color: seashell;
 }
 
-.futureReadingList__info {
-    /* align-content: left; */
-    /* margin-left: 15px; */
+.futureReadingList__iconButtons {
+    display: flex;
+    justify-content: right;
 }
+
 
