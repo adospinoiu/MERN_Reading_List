@@ -6,6 +6,7 @@ import axios from './axios';
 import { IconButton } from '@material-ui/core';
 import NotListedLocationIcon from '@material-ui/icons/NotListedLocation';
 import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
+import ClearIcon from '@material-ui/icons/Clear';
 
 
 function FutureReadingList({ newBook, searchReadingList }) {
@@ -45,7 +46,7 @@ function FutureReadingList({ newBook, searchReadingList }) {
             className="futureReadingList"
             // onClick={() => Clicked([data])}
         >
-            <div className="lightBulbIcon"><NotListedLocationIcon /></div>
+            {/* <div className="lightBulbIcon"><NotListedLocationIcon /></div> */}
 
             <div
                 key={data._id}
@@ -61,6 +62,8 @@ function FutureReadingList({ newBook, searchReadingList }) {
             >
                 <IconButton><ChromeReaderModeIcon /></IconButton>
             </div>
+
+            <div className="clearIcon"><IconButton><ClearIcon /></IconButton></div>
         </div>
     ))
 
