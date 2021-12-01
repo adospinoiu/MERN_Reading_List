@@ -1,5 +1,6 @@
 .currentlyReadingList {
-    display: flex;
+    display: flex; 
+    justify-content: space-between;
     padding: 10px;
     cursor: pointer;
     border-right: 1px solid whitesmoke;
@@ -9,6 +10,7 @@
     background-color: seashell;
 }
 
-.currentlyReadingList__info {
-    margin-left: 15px;
+.currentlyReadingList__iconButtons {
+    display: flex;
+    justify-content: space-between;
 }
