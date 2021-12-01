@@ -378,4 +378,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #79 Still trying to figure out how to orient the divs.
 
+#80 Figured out the new orientation for the <divs>. Also installed the new Material-Ui.
+
 

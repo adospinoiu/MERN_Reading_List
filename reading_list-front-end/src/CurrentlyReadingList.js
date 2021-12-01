@@ -6,6 +6,8 @@ import './CurrentlyReadingList.css';
 import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
 import CommentIcon from '@material-ui/icons/Comment';
 
+import FactCheckIcon from '@mui/icons-material/FactCheck';
+
 function CurrentlyReadingList({ currentBook, getBookData }) {
     const readingNowBook = currentBook.map((data) => (
         <div 
@@ -14,6 +16,7 @@ function CurrentlyReadingList({ currentBook, getBookData }) {
             onClick={() => getBookData(data)}
         >
             <EmojiObjectsIcon />
+            <FactCheckIcon />
 
             <div
                 key={data._id}

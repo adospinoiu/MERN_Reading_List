@@ -64,7 +64,13 @@ function FutureReadingList({ newBook, searchReadingList }) {
                     <IconButton><ChromeReaderModeIcon /></IconButton>
                 </div>
 
-                <div className="clearIcon"><IconButton><ClearIcon /></IconButton></div>
+                <div className="clearIcon"
+                    onClick={() => 
+                        console.log("Will be Deleted")
+                    }
+                >
+                    <IconButton><ClearIcon /></IconButton>
+                </div>
             </div>
         </div>
     ))
