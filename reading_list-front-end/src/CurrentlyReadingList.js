@@ -1,14 +1,16 @@
 import React from 'react';
 import './CurrentlyReadingList.css';
+import axios from './axios';
 
 
 // Import Material-Ui Related
 import { IconButton } from '@material-ui/core';
 import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
 import FactCheckIcon from '@mui/icons-material/FactCheck';
-import axios from 'axios';
 
 
+
+// This function first RECEIVES the information from the Clicked-Function, then POSTS the infromation to the database
 const sendFinishedReadingBook = (finishedReadingBookId, finishedReadingBookTitle, finishedReadingBookAuthor) => {
     axios.post('/addFinishedReading/new', {
         _id: finishedReadingBookId,
@@ -16,6 +18,7 @@ const sendFinishedReadingBook = (finishedReadingBookId, finishedReadingBookTitle
         author: finishedReadingBookAuthor
     })
 }
+
 
 // This function first RECEIVES the information from the Clicked-Icon, then assigns each piece of information a variable, and lastly SENDS the information to a new function
 const Clicked = (finishedReadingBookInfo) => {

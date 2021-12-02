@@ -5,6 +5,7 @@ import Pusher from 'pusher';
 import AddNewBook from './dbAddNewBook.js';
 import AddCurrentlyReading from './dbAddCurrentlyReading.js';
 import AddBookNotes from './dbAddBookNotes.js';
+import AddFinishedReading from './dbAddFinishedReading.js';
 
 // App config
 const app = express();
@@ -159,6 +160,19 @@ app.get('/addBookNotes/notes', (req, res) => {
             res.status(500).send(err)
         } else {
             res.status(200).send(data)
+        }
+    })
+})
+
+// This API-Route is tied to the Currently-Reading-List-SubComponent. It takes the clicked-on-data and passes the information to the database to post so the user knows which book has been finished reading. This is specificially tied to the addfinishedreading-collection'
+app.post('/addFinishedReading/new', (req, res) => {
+    const finishedReading = req.body
+
+    AddFinishedReading.create(finishedReading, (err, data) => {
+        if (err) {
+            res.status(500).send(err)
+        } else {
+            res.status(201).send(data)
         }
     })
 })
