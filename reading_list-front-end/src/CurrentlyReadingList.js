@@ -7,6 +7,15 @@ import { IconButton } from '@material-ui/core';
 import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
 import FactCheckIcon from '@mui/icons-material/FactCheck';
 
+
+const Clicked = (finishedReadingBookInfo) => {
+    console.log('Clicked ...', finishedReadingBookInfo);
+
+    let finishedReadingBookId = finishedReadingBookInfo[0]._id;
+    let finishedReadingBookTitle = finishedReadingBookInfo[0].title;
+    let finishedReadingBookAuthor = finishedReadingBookInfo[0].author;
+}
+
 function CurrentlyReadingList({ currentBook, getBookData }) {
     const readingNowBook = currentBook.map((data) => (
         <div
@@ -32,9 +41,7 @@ function CurrentlyReadingList({ currentBook, getBookData }) {
                 </div>
 
                 <div className="factCheckIcon"
-                    onClick={() =>
-                        console.log("Reading Complete. Move to Completed")
-                    }
+                    onClick={() => Clicked([data])}
                 >
                     <IconButton><FactCheckIcon /></IconButton>
                 </div>
