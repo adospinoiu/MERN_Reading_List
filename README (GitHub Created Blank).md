@@ -380,4 +380,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #80 Figured out the new orientation for the <divs>. Also installed the new Material-Ui.
 
+#81 Figured out how to push to the finished-reading-component from the currently-reading component. Making good progress
+
 
