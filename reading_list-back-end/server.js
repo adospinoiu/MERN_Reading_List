@@ -90,7 +90,9 @@ app.get('/', (req, res) => {
 
 // This API-Route is tied to the main App Component. It gets all the data from the database and then sends it down through ReadingList-Component to the Future-Reading-SubComponent to display the list. This is specifically tied to the 'addnewbooks-collection'
 app.get('/addNewBook/added', (req, res) => {
-    AddNewBook.find((err, data) => {
+    const newBook = req.body
+
+    AddNewBook.find(newBook, (err, data) => {
         if (err) {
             res.status(500).send(err);
         } else {
@@ -160,6 +162,19 @@ app.post('/addBookNotes/new', (req, res) => {
             res.status(500).send(err)
         } else {
             res.status(201).send(data)
+        }
+    })
+})
+
+// This API-Route is tied to the main App-Component. It is to get the list of finished-reading-books. It then passes the information down to the already-read-list-subcomponent to display the information.
+app.get('/addFinishedReading/added', (req, res) => {
+    const finishedReading = req.body
+
+    AddFinishedReading.find(finishedReading, (err, data) => {
+        if (err) {
+            res.status(500).send(err)
+        } else {
+            res.status(200).send(data)
         }
     })
 })

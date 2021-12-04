@@ -91,13 +91,15 @@ function App() {
   return (
     <div className="app">
       <div className="app__body">
-        <ReadingList newBook={newBook} />
+        <ReadingList 
+          newBook={newBook} />
 
         <BookNotes
           currentBook={currentBook}
           notesFromDatabase={notesFromDatabase} />
 
-        <ReadBooks />
+        <ReadBooks
+          finishedBook={finishedBook} />
       </div>
     </div>
   );

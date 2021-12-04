@@ -6,7 +6,7 @@ import AlreadyReadList from './AlreadyReadList';
 import WbIncandescentIcon from '@material-ui/icons/WbIncandescent';
 
 
-function ReadBooks() {
+function ReadBooks({ finishedBook }) {
     return (
         <div className="readbooks">
             <div className="alreadyReadBooks">
@@ -17,11 +17,7 @@ function ReadBooks() {
                 </div>
 
                 <div className="alreadyReadBooks__list">
-                    <AlreadyReadList />
-                    <AlreadyReadList />
-                    <AlreadyReadList />
-                    <AlreadyReadList />
-                    <AlreadyReadList />
+                    <AlreadyReadList finishedBook={finishedBook} />
                 </div>
             </div>
         </div>
