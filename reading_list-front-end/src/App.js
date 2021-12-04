@@ -12,7 +12,13 @@ function App() {
   const [ newBook, setNewBook ] = useState([]);
   const [ currentBook, setCurrentBook ] = useState([]);
   const [ notesFromDatabase, setNotesFromDatabase ] = useState([]);
+  const [ finishedBook, setFinishedBook ] = useState([]);
 
+  //Used to GET data from database
+    //List of 'new-books' in the Reading-List-Component
+    //List of 'currently-reading-books' in the Book-Notes-Component
+    //Notes for the books that are 'currently-reading-books' in the Book-Notes-Component.
+    //Finished books that are completed reading and are in the Read-Books-Component.
   useEffect(() => {
     axios.get('/addNewBook/added')
       .then(response => {
@@ -31,6 +37,13 @@ function App() {
     axios.get('/addBookNotes/notes')
       .then(response => {
         setNotesFromDatabase(response.data)
+      })
+  }, []);
+
+  useEffect(() => {
+    axios.get('/addFinishedReading/added')
+      .then(response => {
+        setFinishedBook(response.data)
       })
   }, []);
 

@@ -138,19 +138,6 @@ app.post('/addCurrentlyReading/new', (req, res) => {
     })
 })
 
-// This API-Route is tied to the BookNotes-Component. It takes the notes entered by the user and passes the information to the database to post so the user can save notes for each specific currently reading book.
-app.post('/addBookNotes/new', (req, res) => {
-    const bookNotes = req.body
-
-    AddBookNotes.create(bookNotes, (err, data) => {
-        if (err) {
-            res.status(500).send(err)
-        } else {
-            res.status(201).send(data)
-        }
-    })
-})
-
 // This API-Route is tied to the main App-Component. It is to get all the notes entered on a book-by-book basis by the user. It then passes the information down to the notes-subcomponent to display the information.
 app.get('/addBookNotes/notes', (req, res) => {
     const bookNotes = req.body
@@ -160,6 +147,19 @@ app.get('/addBookNotes/notes', (req, res) => {
             res.status(500).send(err)
         } else {
             res.status(200).send(data)
+        }
+    })
+})
+
+// This API-Route is tied to the BookNotes-Component. It takes the notes entered by the user and passes the information to the database to post so the user can save notes for each specific currently reading book.
+app.post('/addBookNotes/new', (req, res) => {
+    const bookNotes = req.body
+
+    AddBookNotes.create(bookNotes, (err, data) => {
+        if (err) {
+            res.status(500).send(err)
+        } else {
+            res.status(201).send(data)
         }
     })
 })
