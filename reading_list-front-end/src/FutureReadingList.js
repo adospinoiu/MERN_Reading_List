@@ -30,7 +30,8 @@ function FutureReadingList({ newBook, searchReadingList }) {
         })
     }
 
-    const Clicked = (currentBook) => {
+    //This function gets DATA from the icon being clicked. The user clicks the icon in order to add a particular book to the 'currently-reading-list'. Once the function receives the DATA. It then extracts what it needs and sends it on to anther function that will POST the data.
+    const clickedToAddToCurrentlyReading = (currentBook) => {
         console.log('Clicked ...', currentBook);
 
         let currentBookId = currentBook[0]._id;
@@ -39,6 +40,10 @@ function FutureReadingList({ newBook, searchReadingList }) {
         let currentRecommendedBy = currentBook[0].recommendedBy;
 
         sendCurrentlyReading(currentBookId, currentTitle, currentAuthor, currentRecommendedBy);
+    }
+
+    const clickedToDeleteFromList = (deleteBook) => {
+        console.log('Delete this book ...', deleteBook);
     }
 
     const futureBook = searchForBook.map((data) => (
@@ -60,15 +65,13 @@ function FutureReadingList({ newBook, searchReadingList }) {
             <div className="futureReadingList__iconButtons">
                 <div
                     className="openBookIcon"
-                    onClick={() => Clicked([data])}
+                    onClick={() => clickedToAddToCurrentlyReading([data])}
                 >
                     <IconButton><ChromeReaderModeIcon /></IconButton>
                 </div>
 
                 <div className="clearIcon"
-                    onClick={() => 
-                        console.log("Will be Deleted")
-                    }
+                    onClick={() => clickedToDeleteFromList([data])}
                 >
                     <IconButton><ClearIcon /></IconButton>
                 </div>
