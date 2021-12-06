@@ -1,6 +1,8 @@
 import React from 'react';
 import './AlreadyReadList.css';
 
+// Import Material-Ui Related
+import { IconButton } from '@material-ui/core';
 import HighlightIcon from '@material-ui/icons/Highlight';
 
 function AlreadyReadList({ finishedBook }) {
@@ -18,10 +20,12 @@ function AlreadyReadList({ finishedBook }) {
                 <p>{data.author}</p>
             </div>
 
-            <HighlightIcon />
+            <div className="highlightIcon">
+                <IconButton><HighlightIcon /></IconButton>
+            </div>
+            
         </div>
     ))
-
 
     return (
         (finishedReadingBook)
