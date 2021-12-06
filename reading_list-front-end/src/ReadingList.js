@@ -73,14 +73,20 @@ function ReadingList({ newBook }) {
                     <ViewListIcon />
                     
                     <p>Reading List</p>
-                </div>
 
-                <div className="futurereading__list">
                     <input 
                         type="text" 
                         placeholder="Search"
                         onChange={e => setSearchReadingList(e.target.value)} 
                     />
+                </div>
+
+                <div className="futurereading__list">
+                    {/* <input 
+                        type="text" 
+                        placeholder="Search"
+                        onChange={e => setSearchReadingList(e.target.value)} 
+                    /> */}
                     
                     <FutureReadingList newBook={newBook} searchReadingList={searchReadingList} />
                 </div>
