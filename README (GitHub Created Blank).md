@@ -382,4 +382,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #81 Figured out how to push to the finished-reading-component from the currently-reading component. Making good progress
 
+#82 Managed to delete an entire collection by sending DELETE-API the wrong way. Spent a day re-entering my book list.
+
 

@@ -18,6 +18,7 @@ app.use(express.json());
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Headers', '*');
+    // res.setHeader('Access-Control-Allow-Methods', 'GET,POST,DELETE');
     next();
 })
 
@@ -106,6 +107,18 @@ app.post('/addNewBook/new', (req, res) => {
     const newBook = req.body
 
     AddNewBook.create(newBook, (err, data) => {
+        if (err) {
+            res.status(500).send(err)
+        } else {
+            res.status(201).send(data)
+        }
+    })
+})
+
+app.delete('/addNewBook/delete', (req, res) => {
+    const newBook = req.body
+
+    AddNewBook.remove(newBook, (err, data) => {
         if (err) {
             res.status(500).send(err)
         } else {

@@ -30,6 +30,15 @@ function FutureReadingList({ newBook, searchReadingList }) {
         })
     }
 
+    // const sendDeleteFromList = (deleteBookId, deleteTitle, deleteAuthor, deleteRecommendedBy) => {
+    //     axios.delete('/addNewBook/delete', {
+    //         _id: deleteBookId,
+    //         title: deleteTitle,
+    //         author: deleteAuthor,
+    //         recommendedBy: deleteRecommendedBy,
+    //     })
+    // }
+
     //This function gets DATA from the icon being clicked. The user clicks the icon in order to add a particular book to the 'currently-reading-list'. Once the function receives the DATA. It then extracts what it needs and sends it on to anther function that will POST the data.
     const clickedToAddToCurrentlyReading = (currentBook) => {
         console.log('Clicked ...', currentBook);
@@ -44,6 +53,13 @@ function FutureReadingList({ newBook, searchReadingList }) {
 
     const clickedToDeleteFromList = (deleteBook) => {
         console.log('Delete this book ...', deleteBook);
+
+        let deleteBookId = deleteBook[0]._id;
+        let deleteTitle = deleteBook[0].title;
+        let deleteAuthor = deleteBook[0].author;
+        let deleteRecommendedBy = deleteBook[0].recommendedBy;
+
+        sendDeleteFromList(deleteBookId, deleteTitle, deleteAuthor, deleteRecommendedBy);
     }
 
     const futureBook = searchForBook.map((data) => (
