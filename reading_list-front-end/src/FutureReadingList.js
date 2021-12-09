@@ -59,7 +59,7 @@ function FutureReadingList({ newBook, searchReadingList }) {
         let deleteAuthor = deleteBook[0].author;
         let deleteRecommendedBy = deleteBook[0].recommendedBy;
 
-        sendDeleteFromList(deleteBookId, deleteTitle, deleteAuthor, deleteRecommendedBy);
+        // sendDeleteFromList(deleteBookId, deleteTitle, deleteAuthor, deleteRecommendedBy);
     }
 
     const futureBook = searchForBook.map((data) => (

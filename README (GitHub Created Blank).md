@@ -384,4 +384,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #82 Managed to delete an entire collection by sending DELETE-API the wrong way. Spent a day re-entering my book list.
 
+#83 Added all the data back to the future-reading-list collection
+
 
