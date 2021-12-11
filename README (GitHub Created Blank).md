@@ -388,4 +388,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #84 Making small progress forward one day at a time.
 
+#85 Need to get back to doing the design program through coursera
+
 
