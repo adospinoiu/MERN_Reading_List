@@ -392,4 +392,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #86 Going to try and wrap up another class tomorrow.
 
+#87 Didn't get to do much coding this weekend because of the garage sales.
+
 
