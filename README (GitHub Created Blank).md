@@ -396,4 +396,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #88 The class is starting to fall behind now.
 
+#89 Need to start moving on the class again. Going to resume tomorrow.
+
 
