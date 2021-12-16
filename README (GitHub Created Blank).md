@@ -398,4 +398,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #89 Need to start moving on the class again. Going to resume tomorrow.
 
+#90 Didn't get anything done on the class today. Will resume tomorrow.
+
 
