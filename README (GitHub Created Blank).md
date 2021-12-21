@@ -406,4 +406,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #93 Going to focus on finish the class tomorrow.
 
-$94 Finished week-5 of the class. Have to finish week-6 next.
+#94 Finished week-5 of the class. Have to finish week-6 next.
+
+#95 Need to finish the 6th-week so I can wrap up this 5th-class.
