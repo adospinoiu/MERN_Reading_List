@@ -408,4 +408,4 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #94 Finished week-5 of the class. Have to finish week-6 next.
 
-#95 Need to finish the 6th-week so I can wrap up this 5th-class.
+#95 Need to finish the 6th-week so I can wrap up this 5th-class. On the last assignment of the 6th-week right now.
