@@ -411,3 +411,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #95 Need to finish the 6th-week so I can wrap up this 5th-class. On the last assignment of the 6th-week right now.
 
 #96 Trying to finish it up before the end of the year to move on to the next class.
+
+#97 Have only a few more slides to complete. Then will be totally done.
