@@ -413,3 +413,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #96 Trying to finish it up before the end of the year to move on to the next class.
 
 #97 Have only a few more slides to complete. Then will be totally done.
+
+#98 Finished Week-5 and Class-5. Started Class-6 and am done with Week-1.
