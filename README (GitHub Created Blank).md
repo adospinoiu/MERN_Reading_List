@@ -417,3 +417,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #98 Finished Week-5 and Class-5. Started Class-6 and am done with Week-1.
 
 #99 Moving along in the class. Going to finish soon!
+
+#100 Have finished all the lectures for Week-1 and Week-2. Going to be doing the assignments of the first two weeks next.
