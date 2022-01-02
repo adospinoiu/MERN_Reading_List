@@ -419,3 +419,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #99 Moving along in the class. Going to finish soon!
 
 #100 Have finished all the lectures for Week-1 and Week-2. Going to be doing the assignments of the first two weeks next.
+
+#101 Finished up all the assignments for Week-1. Will finish assignment for Week-2.
