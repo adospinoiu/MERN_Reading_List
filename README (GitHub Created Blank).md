@@ -423,3 +423,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #101 Finished up all the assignments for Week-1. Will finish assignment for Week-2.
 
 #102 Week-1 is all complete. Need to finish Week-2 work. Have moved on to Week-3.
+
+#103 Moving through Week-3 as I finish the HW for Week-2.
