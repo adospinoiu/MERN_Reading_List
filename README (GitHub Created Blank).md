@@ -426,4 +426,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #103 Moving through Week-3 as I finish the HW for Week-2.
 
-#104 Finished by book this morning. Hoping to spend some time on the class tomorrow morning.
+#104 Finished my book this morning. Hoping to spend some time on the class tomorrow morning.
+
+#105 Didn't spend much time on the class this morning. But did start Week-3 lectures.
