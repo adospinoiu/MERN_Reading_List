@@ -1,5 +1,5 @@
 .currentlyReadingList {
-    display: flex; 
+    /* display: flex;  */
     justify-content: space-between;
     padding: 10px;
     cursor: pointer;
