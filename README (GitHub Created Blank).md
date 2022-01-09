@@ -433,3 +433,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #106 Finished all the lectures for Week-3. Need to do the assingment for Week-2 and Week-3.
 
 #107 Will continue working with the HW and the class tomorrow morning.
+
+#108 Didn't really get much work done on it this morning. Caught up on most of the news.
