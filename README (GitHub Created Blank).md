@@ -437,3 +437,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #108 Didn't really get much work done on it this morning. Caught up on most of the news.
 
 #109 Going to try to wrap up HW for Week-2 tomorrow.
+
+#110 Didn't get as much done as I wanted to.
