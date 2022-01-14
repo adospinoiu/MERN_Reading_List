@@ -441,3 +441,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #110 Didn't get as much done as I wanted to. Having a hard time motivating to finish this UX Design course. But will wrap it up.
 
 #111 Going to do everything possible to wrap up Week-2 work tomorrow.
+
+#112 Completed all Week-2. Going to do the lectures for Week-4 and start assignment for Week-3
