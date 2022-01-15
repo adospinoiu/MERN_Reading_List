@@ -443,3 +443,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #111 Going to do everything possible to wrap up Week-2 work tomorrow.
 
 #112 Completed all Week-2. Going to do the lectures for Week-4 and start assignment for Week-3
+
+#113 Started working on the lectures for Week-4
