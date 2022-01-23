@@ -450,4 +450,4 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #115 Moving along. Will finish Week-6 tomorrow. Almost finished with Week-6 lectures. Then have to wrap up the HW.
 
-#116 Going to try and finish up most of it this weekend.
+#116 Going to try and finish up most of it this weekend. Still working on wrapping up this weekend.
