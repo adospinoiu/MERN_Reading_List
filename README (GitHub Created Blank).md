@@ -452,4 +452,4 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #116 Going to try and finish up most of it this weekend. Still working on wrapping up this weekend.
 
-#117 Finished all the lectures of Week-6.
+#117 Finished all the lectures of Week-6. Going to start finishing the rest of the HW for each week now.
