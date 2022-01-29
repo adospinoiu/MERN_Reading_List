@@ -457,3 +457,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #118 Finished Week-3. Only have Week-4 and Week-5 left to submit for HW grade.
 
 #119 Need to wrap up Week-4 and Week-5 HW. Those are the last of the two for this class. Ends on 2/14.
+
+#120 Going to finisht the Week-4 and Week-5 HW this weekend.
