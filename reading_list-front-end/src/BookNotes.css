@@ -10,8 +10,10 @@
 
 
 /* ###### Currently Reading Section ######*/
-.readinglist__currentlyreading {
+.currentlyreading__list {
     padding: 20px;
+    display: flex;
+    /* flex-direction: column; */
     overflow: scroll;
 
     /* border-bottom: 1px solid lightgrey; */
