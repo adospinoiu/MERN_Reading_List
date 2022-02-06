@@ -469,3 +469,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #124 Still waiting for the grade for the Week-4 HW.
     
 #125 Grade for Week-4 has posted now. Only have Week-5 HW left to submit. Then the class is done.
+    
+#126 Need to finish now the Week-5 HW in order to pass the class and wrap it up.
