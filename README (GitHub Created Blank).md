@@ -473,3 +473,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #126 Need to finish now the Week-5 HW in order to pass the class and wrap it up.
 
 #127 Almost done. Just need to wrap up already with this class. That will leave the last of the classes.
+
+#128 Made some good progress on the last HW today. Going to try and wrap up tomorrow.
