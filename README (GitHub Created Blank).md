@@ -476,4 +476,6 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #128 Made some good progress on the last HW today. Going to try and wrap up tomorrow.
 
-#129 Finished the class! Now on the 7th and last class
+#129 Finished the class! Now on the 7th and last class.
+
+#130 Have started the 7-th and last class of the program.
