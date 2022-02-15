@@ -479,3 +479,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #129 Finished the class! Now on the 7th and last class.
 
 #130 Have started the 7-th and last class of the program. Moving along making progress in the class.
+
+#131 Made some additional progress today. Making headway on the last class.
