@@ -483,3 +483,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #131 Made some additional progress today. Making headway on the last class.
 
 #132 Wrapped up all the vidoes from Week-1 of the last class.
+
+#133 Almost finished all the HW for the week-1. Should finish tomorrow.
