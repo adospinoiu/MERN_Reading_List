@@ -485,3 +485,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #132 Wrapped up all the vidoes from Week-1 of the last class.
 
 #133 Almost finished all the HW for the week-1. Should finish tomorrow.
+
+#134 Finished all of Week-1. Moved on to Week-2
