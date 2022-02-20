@@ -486,4 +486,4 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #133 Almost finished all the HW for the week-1. Should finish tomorrow.
 
-#134 Finished all of Week-1. Moved on to Week-2
+#134 Finished all of Week-1. Moved on to Week-2. Started Week-2 and am moving right along in it.
