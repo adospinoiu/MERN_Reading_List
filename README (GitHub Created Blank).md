@@ -490,4 +490,4 @@ $48 There is something going on with the secondary POST that is executed from th
 
 #135 Moving along on Week-2 of the class. More than half done with Week-2.
 
-#136 Should be able to wrap up Week-2 this week.
+#136 Should be able to wrap up Week-2 this week. Almost done with Week-2. Just need to finish the HW.
