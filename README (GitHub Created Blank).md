@@ -495,3 +495,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #137 Moving along as fast as I can to wrap up. Trying to wrap up to complete the class.
 
 #138 Been gone for a while for work travel and then been really busy this week.
+
+#139 Trying to get back into the grove of thinks. Trying ...
