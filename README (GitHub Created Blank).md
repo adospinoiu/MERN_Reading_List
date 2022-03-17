@@ -497,3 +497,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #138 Been gone for a while for work travel and then been really busy this week.
 
 #139 Trying to get back into the grove of thinks. Trying ...
+
+#140 Trying really hard to get back into the grove of thinks. Maybe tomorrow. 
