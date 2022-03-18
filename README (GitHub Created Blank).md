@@ -499,3 +499,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #139 Trying to get back into the grove of thinks. Trying ...
 
 #140 Trying really hard to get back into the grove of thinks. Maybe tomorrow. 
+
+#141 Wasn't able to get anything done yesterday. Will give it another go tomorrow.
