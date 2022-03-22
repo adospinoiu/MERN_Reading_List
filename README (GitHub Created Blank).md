@@ -505,3 +505,5 @@ $48 There is something going on with the secondary POST that is executed from th
 #142 Went for vacation up north for the weekend. Will try to get some stuff done in the morning.
 
 #143 Didn't really get to work on anything today. We are up at the cabin, so didn't have a chance to get something done.
+
+#144 Really need to start getting going again to finish that up.
