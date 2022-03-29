@@ -513,3 +513,5 @@ $48 There is something going on with the secondary POST that is executed from th
 $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #147 Back from a trip. Hoping to start fresh tomorrow.
+
+#148 Have at least started opening the pages to see where I'm at.
