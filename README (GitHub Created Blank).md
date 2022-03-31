@@ -515,3 +515,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #147 Back from a trip. Hoping to start fresh tomorrow.
 
 #148 Have at least started opening the pages to see where I'm at.
+
+#149 Desperately trying to get back into the groove of things.
