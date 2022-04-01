@@ -517,3 +517,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #148 Have at least started opening the pages to see where I'm at.
 
 #149 Desperately trying to get back into the groove of things.
+
+#150 Still struggling to get back into the grove of things. I think I just need to at least open the website.
