@@ -535,3 +535,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #157 Made more progress today! Getting back into the groove of things ....
 
 #158 Another day ... more progress!
+
+#159 More progress. I'm also trying to learn a bit more of firebase.
