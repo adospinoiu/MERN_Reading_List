@@ -545,3 +545,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #162 Working on both the class and a tutorial for Firebase.
 
 #163 Moving right along in the class. Almost done with all the lectures.
+
+#164 More progress today. Little bit every day will get there in the end.
