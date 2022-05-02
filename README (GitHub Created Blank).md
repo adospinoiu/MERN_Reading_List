@@ -549,3 +549,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #164 More progress today. Little bit every day will get there in the end. Trying to finish up all the lectures and then the readings and finally the two different assignments. 
 
 #165 Didn't make progress today. Had to go to early games. But will make progress tomorrow. So close to being done! Don't stop!
+
+#166 Choose to sleep in. Needed the rest. Will continue tomorrow.
