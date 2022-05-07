@@ -553,3 +553,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #166 Choose to sleep in. Needed the rest. Will continue tomorrow.
 
 #167 Did make progress today. Did indeed continue with more.
+
+#168 Almost finished with all the vidoes. About to start working on the actual assignments. 
