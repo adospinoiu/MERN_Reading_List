@@ -555,3 +555,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #167 Did make progress today. Did indeed continue with more.
 
 #168 Almost finished with all the vidoes. About to start working on the actual assignments. 
+
+#169 Really need to start wrapping everything up now to complete the class.
