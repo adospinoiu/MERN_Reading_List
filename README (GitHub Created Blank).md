@@ -557,3 +557,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #168 Almost finished with all the vidoes. About to start working on the actual assignments. 
 
 #169 Really need to start wrapping everything up now to complete the class.
+
+#170 Let's see if we can wrap up tomorrow morning. 
