@@ -563,3 +563,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #171 Finished one of the assignments! Actually finished! Will try to finish one more tomorrow morning. 
 
 #172 Have been making more progress. Almost done with the next assignment.
+
+#173 Passed the first assignment. Will work on passing the next one.
