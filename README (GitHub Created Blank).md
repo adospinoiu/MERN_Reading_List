@@ -567,3 +567,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #173 Passed the first assignment. Will work on passing the next one.
 
 #174 Going to try and submit the next assignment tomorrow morning. 
+
+#175 Started looking at the last assignment. It is a presentation.
