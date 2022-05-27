@@ -571,3 +571,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #175 Started looking at the last assignment. It is a presentation.
 
 #176 Need to continue working on this. No stopping now. Need to wrap up.
+
+$177 Going to make some more progress tomorrow. 
