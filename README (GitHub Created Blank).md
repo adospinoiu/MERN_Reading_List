@@ -572,4 +572,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #176 Need to continue working on this. No stopping now. Need to wrap up.
 
-$177 Going to make some more progress tomorrow. 
+#177 Going to make some more progress tomorrow. 
+
+#178 Found a great vidoe on Web3 and full-stack that am following along on.
