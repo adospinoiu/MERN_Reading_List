@@ -577,3 +577,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #178 Found a great vidoe on Web3 and full-stack that am following along on.
 
 #179 Three of thirty-two hours down. Making steady progress everyday.
+
+#180 Moving right along on the tutorial. Hoping to finish alot more tomorrow.
