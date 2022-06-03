@@ -579,3 +579,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #179 Three of thirty-two hours down. Making steady progress everyday.
 
 #180 Moving right along on the tutorial. Hoping to finish alot more tomorrow.
+
+#189 Now up to the 4th hour of the 32 hour vidoe.
