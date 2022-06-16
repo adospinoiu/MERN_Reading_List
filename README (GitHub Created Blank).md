@@ -591,3 +591,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #193 Made some really good progress. Almost 25% of the way through. 
 
 #194 Was stuck. Got helped. Should be able to continue now.
+
+#195 Making some really good progress on the video.
