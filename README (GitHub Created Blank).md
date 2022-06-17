@@ -593,3 +593,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #194 Was stuck. Got helped. Should be able to continue now.
 
 #195 Making some really good progress on the video.
+
+#196 Almost to the 8th hours ... which would be about 25% through the course. Am interested to see what will happen towards the end of the course.
