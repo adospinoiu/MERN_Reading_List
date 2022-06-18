@@ -594,4 +594,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #195 Making some really good progress on the video.
 
-#196 Almost to the 8th hours ... which would be about 25% through the course. Am interested to see what will happen towards the end of the course.
+#196 Almost to the 8th hours ... which would be about 25% through the course. Am interested to see what will happen towards the end of the course. 
+
+#197 Moving along. Still moving through. About to reach the 8th hour.
