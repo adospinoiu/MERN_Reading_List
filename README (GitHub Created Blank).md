@@ -597,3 +597,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #196 Almost to the 8th hours ... which would be about 25% through the course. Am interested to see what will happen towards the end of the course. 
 
 #197 Moving along. Still moving through. About to reach the 8th hour.
+
+#198 Not stopping. Going to keep on moving forward since I'm about 25% through.
