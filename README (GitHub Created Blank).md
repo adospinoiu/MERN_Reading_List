@@ -601,3 +601,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #198 Not stopping. Going to keep on moving forward since I'm about 25% through.
 
 #199 Passed the 8-hour mark. Now officially past the 25% mark ... on to the second 25%.
+
+#200 Can't seem to deploy to the test net. Not enough gas something. Need to figure it out.
