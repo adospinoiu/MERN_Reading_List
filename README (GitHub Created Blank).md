@@ -605,3 +605,5 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #200 Can't seem to deploy to the test net. Not enough gas something. Need to figure it out.
 
 #201 Got unstuck. Was able to move forward now. Not sure exactly why it didn't work with the encrypted version.
+
+#202 Moved farther along now. Still making good progress.
