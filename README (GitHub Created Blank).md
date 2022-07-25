@@ -668,5 +668,7 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #232 Made it to Lesson 8. Full-Stack now begins. This is at 12:38:53
 
+#233 More progress made today. At 12:45:40
+
 
 
