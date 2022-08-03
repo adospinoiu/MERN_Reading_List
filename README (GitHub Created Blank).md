@@ -686,5 +686,7 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #241 Made more progress today. At 13:34:05. Keep going now.
 
+#242 Made it to Lesson 9! At 13:41:04 ... Now half way through all the lessons. No stopping us now!
+
 
 
