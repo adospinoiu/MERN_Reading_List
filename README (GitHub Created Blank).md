@@ -688,5 +688,7 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #242 Made it to Lesson 9! At 13:41:04 ... Now half way through all the lessons. No stopping us now!
 
+#243 Progressing in Lesson 9. Now at 13:45:08. Need to install all the dependencies. That's what's taking a while.
+
 
 
