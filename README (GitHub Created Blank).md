@@ -696,5 +696,7 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #246 Going to try to make some more progress tomorrow. Will be going on vacation soon though.
 
+#247 Went on vacation for a week. So no contributions. Back now. Will restart tomorrow monrning.
+
 
 
