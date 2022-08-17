@@ -698,5 +698,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #247 Went on vacation for a week. So no contributions. Back now. Will restart tomorrow monrning.
 
+#248 We start tomorrow! No more messing around about finishing the video.
 
 
