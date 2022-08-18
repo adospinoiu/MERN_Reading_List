@@ -700,4 +700,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #248 We start tomorrow! No more messing around about finishing the video.
 
+#249 When are you going to stop fidling around and actuall get back to the vidoe? When!?!?
+
 
