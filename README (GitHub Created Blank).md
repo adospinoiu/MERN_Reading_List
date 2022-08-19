@@ -702,4 +702,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #249 When are you going to stop fidling around and actuall get back to the vidoe? When!?!?
 
+#250 Started getting back into the grove today. Started. Make more progress tomorrow.
+
 
