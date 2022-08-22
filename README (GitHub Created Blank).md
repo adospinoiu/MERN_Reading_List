@@ -708,4 +708,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #252 No progress today. But will make good progress tomorrow. Waking up early.
 
+#253 Made progress this morning. Finally got all the dependencies to load correctly.
+
 
