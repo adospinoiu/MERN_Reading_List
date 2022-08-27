@@ -718,4 +718,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #257 Didn't make as much progress as I wanted to this morning. Have moved on to 15:20:02. Going to try more progress tomorrow.
 
+#258 Had to work on various other things this monring. But I did apply to a programming job today. Tomorrow will apply to more.
+
 
