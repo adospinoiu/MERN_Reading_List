@@ -724,4 +724,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #260 Made good progress today. Now at 16:05:57. Now basically half way through the course.
 
+#261 No progress this morning. Life bump. Will try to resume tomorrow.
+
 
