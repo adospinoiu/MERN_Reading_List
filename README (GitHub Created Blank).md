@@ -726,4 +726,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #261 No progress this morning. Life bump. Will try to resume tomorrow.
 
+#262 Applying to jobs now so I can get into the tech world.
+
 
