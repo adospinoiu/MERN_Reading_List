@@ -734,4 +734,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #265 Making some small progress forward on the AWS Developer Certificate
 
+#266 Made more progress on the AWS Developer Certificate and also send more resumes. Keep going.
+
 
