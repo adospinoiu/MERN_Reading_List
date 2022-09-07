@@ -736,4 +736,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #266 Made more progress on the AWS Developer Certificate and also send more resumes. Keep going.
 
+#267 Made significant progress in the AWS Certificate and also with more applications and completed resume.
+
 
