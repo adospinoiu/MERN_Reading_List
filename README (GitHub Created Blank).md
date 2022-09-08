@@ -738,4 +738,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #267 Made significant progress in the AWS Certificate and also with more applications and completed resume.
 
+#268 More progress today. Also had first screening call today. Looked at other places as well. Moving forward.
+
 
