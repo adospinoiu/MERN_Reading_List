@@ -740,4 +740,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #268 More progress today. Also had first screening call today. Looked at other places as well. Moving forward.
 
+#269 Made some more good progress today. Keeping the pace of applications. Also started looking at engineering.
+
 
