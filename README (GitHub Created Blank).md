@@ -742,4 +742,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #269 Made some more good progress today. Keeping the pace of applications. Also started looking at engineering.
 
+#270 Made progress today ... not as much as I wanted to. But still progress. More tomrrow.
+
 
