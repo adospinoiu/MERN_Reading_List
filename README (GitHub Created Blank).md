@@ -748,4 +748,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #272 Finished the resume for the engineering positions. Sent on to two of them at Raytheon.
 
+#273 Finished applying to Raytheon for the four position referred to.
+
 
