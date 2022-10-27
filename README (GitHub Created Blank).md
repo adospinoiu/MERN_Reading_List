@@ -1,3 +1,4 @@
+
 # MERN_Reading_List
 
 #1 Create the REACT APP with the installation line "npx create-react-app reading_list-front-end". The last part of the installation line is actually the name of the folder that will be created where the React Install files will be.
@@ -749,5 +750,7 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 #272 Finished the resume for the engineering positions. Sent on to two of them at Raytheon.
 
 #273 Finished applying to Raytheon for the four position referred to.
+
+#274 Paused some of the projects due to the influx of job applications and resumes that came through in the last few days.
 
 
