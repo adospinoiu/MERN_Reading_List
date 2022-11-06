@@ -755,4 +755,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #275 Have started the Google Cloud Certificate path and the AWS Certificate path now that I have a tech job to be started on 11/28
 
+#276 Trying to get some more work done on various projects. The Cloud Certificate class is taking up alot of time right now.
+
 
