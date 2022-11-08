@@ -757,4 +757,6 @@ $146 Didn't happen today. Needs to happen tomorrow. I will make sure of it.
 
 #276 Trying to get some more work done on various projects. The Cloud Certificate class is taking up alot of time right now.
 
+#277 Taking up alot of time on this Google Cloud Certificate
+
 
